@@ -1,0 +1,219 @@
+[
+    {
+        "id": 1,
+        "name": "walk",
+        "english_names": [
+            "Walking in tall grass or a cave"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "old-rod",
+        "english_names": [
+            "Fishing with an Old Rod"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "good-rod",
+        "english_names": [
+            "Fishing with a Good Rod"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "super-rod",
+        "english_names": [
+            "Fishing with a Super Rod"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "surf",
+        "english_names": [
+            "Surfing"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "rock-smash",
+        "english_names": [
+            "Smashing rocks"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "headbutt",
+        "english_names": [
+            "Headbutting trees"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "dark-grass",
+        "english_names": [
+            "Walking in dark grass"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "grass-spots",
+        "english_names": [
+            "Walking in rustling grass"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "cave-spots",
+        "english_names": [
+            "Walking in dust clouds"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "bridge-spots",
+        "english_names": [
+            "Walking in bridge shadows"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "super-rod-spots",
+        "english_names": [
+            "Fishing in dark spots"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "surf-spots",
+        "english_names": [
+            "Surfing in dark spots"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "yellow-flowers",
+        "english_names": [
+            "Walking in yellow flowers"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "purple-flowers",
+        "english_names": [
+            "Walking in purple flowers"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "red-flowers",
+        "english_names": [
+            "Walking in red flowers"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "rough-terrain",
+        "english_names": [
+            "Walking on rough terrain"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "gift",
+        "english_names": [
+            "Receive as a gift"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "gift-egg",
+        "english_names": [
+            "Receive egg as a gift"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "only-one",
+        "english_names": [
+            "Static encounter, only one chance"
+        ]
+    },
+    {
+        "id": 21,
+        "name": "pokeflute",
+        "english_names": [
+            "Playing Pok\u00e9flute"
+        ]
+    },
+    {
+        "id": 22,
+        "name": "headbutt-low",
+        "english_names": [
+            "Headbutting a low encounter rate tree"
+        ]
+    },
+    {
+        "id": 23,
+        "name": "headbutt-normal",
+        "english_names": [
+            "Headbutting a normal encounter rate tree"
+        ]
+    },
+    {
+        "id": 24,
+        "name": "headbutt-high",
+        "english_names": [
+            "Headbutting a high encounter rate tree"
+        ]
+    },
+    {
+        "id": 25,
+        "name": "squirt-bottle",
+        "english_names": [
+            "Using the Squirt Bottle on a Sudowoodo"
+        ]
+    },
+    {
+        "id": 26,
+        "name": "wailmer-pail",
+        "english_names": [
+            "Using the Wailmer Pail on a Sudowoodo"
+        ]
+    },
+    {
+        "id": 27,
+        "name": "seaweed",
+        "english_names": [
+            "Diving on seaweed"
+        ]
+    },
+    {
+        "id": 28,
+        "name": "roaming-grass",
+        "english_names": [
+            "On any overworld patch of grass"
+        ]
+    },
+    {
+        "id": 29,
+        "name": "roaming-water",
+        "english_names": [
+            "On any overworld water tile"
+        ]
+    },
+    {
+        "id": 30,
+        "name": "devon-scope",
+        "english_names": [
+            "Using Devon Scope"
+        ]
+    },
+    {
+        "id": 31,
+        "name": "feebas-tile-fishing",
+        "english_names": [
+            "Fishing in a Feebas Tile"
+        ]
+    }
+]

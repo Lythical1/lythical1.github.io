@@ -1,0 +1,898 @@
+[
+    {
+        "id": 1,
+        "name": "cheri",
+        "natural_gift_power": 60,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "cheri-berry",
+        "natural_gift_type": "fire"
+    },
+    {
+        "id": 2,
+        "name": "chesto",
+        "natural_gift_power": 60,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "chesto-berry",
+        "natural_gift_type": "water"
+    },
+    {
+        "id": 3,
+        "name": "pecha",
+        "natural_gift_power": 60,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "pecha-berry",
+        "natural_gift_type": "electric"
+    },
+    {
+        "id": 4,
+        "name": "rawst",
+        "natural_gift_power": 60,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "rawst-berry",
+        "natural_gift_type": "grass"
+    },
+    {
+        "id": 5,
+        "name": "aspear",
+        "natural_gift_power": 60,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "aspear-berry",
+        "natural_gift_type": "ice"
+    },
+    {
+        "id": 6,
+        "name": "leppa",
+        "natural_gift_power": 60,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "leppa-berry",
+        "natural_gift_type": "fighting"
+    },
+    {
+        "id": 7,
+        "name": "oran",
+        "natural_gift_power": 60,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "oran-berry",
+        "natural_gift_type": "poison"
+    },
+    {
+        "id": 8,
+        "name": "persim",
+        "natural_gift_power": 60,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "persim-berry",
+        "natural_gift_type": "ground"
+    },
+    {
+        "id": 9,
+        "name": "lum",
+        "natural_gift_power": 60,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "lum-berry",
+        "natural_gift_type": "flying"
+    },
+    {
+        "id": 10,
+        "name": "sitrus",
+        "natural_gift_power": 60,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "sitrus-berry",
+        "natural_gift_type": "psychic"
+    },
+    {
+        "id": 11,
+        "name": "figy",
+        "natural_gift_power": 60,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "figy-berry",
+        "natural_gift_type": "bug"
+    },
+    {
+        "id": 12,
+        "name": "wiki",
+        "natural_gift_power": 60,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "wiki-berry",
+        "natural_gift_type": "rock"
+    },
+    {
+        "id": 13,
+        "name": "mago",
+        "natural_gift_power": 60,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "mago-berry",
+        "natural_gift_type": "ghost"
+    },
+    {
+        "id": 14,
+        "name": "aguav",
+        "natural_gift_power": 60,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "aguav-berry",
+        "natural_gift_type": "dragon"
+    },
+    {
+        "id": 15,
+        "name": "iapapa",
+        "natural_gift_power": 60,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "iapapa-berry",
+        "natural_gift_type": "dark"
+    },
+    {
+        "id": 16,
+        "name": "razz",
+        "natural_gift_power": 60,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "razz-berry",
+        "natural_gift_type": "steel"
+    },
+    {
+        "id": 17,
+        "name": "bluk",
+        "natural_gift_power": 70,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "bluk-berry",
+        "natural_gift_type": "fire"
+    },
+    {
+        "id": 18,
+        "name": "nanab",
+        "natural_gift_power": 70,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "nanab-berry",
+        "natural_gift_type": "water"
+    },
+    {
+        "id": 19,
+        "name": "wepear",
+        "natural_gift_power": 70,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "wepear-berry",
+        "natural_gift_type": "electric"
+    },
+    {
+        "id": 20,
+        "name": "pinap",
+        "natural_gift_power": 70,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "pinap-berry",
+        "natural_gift_type": "grass"
+    },
+    {
+        "id": 21,
+        "name": "pomeg",
+        "natural_gift_power": 70,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "pomeg-berry",
+        "natural_gift_type": "ice"
+    },
+    {
+        "id": 22,
+        "name": "kelpsy",
+        "natural_gift_power": 70,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "kelpsy-berry",
+        "natural_gift_type": "fighting"
+    },
+    {
+        "id": 23,
+        "name": "qualot",
+        "natural_gift_power": 70,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "qualot-berry",
+        "natural_gift_type": "poison"
+    },
+    {
+        "id": 24,
+        "name": "hondew",
+        "natural_gift_power": 70,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "hondew-berry",
+        "natural_gift_type": "ground"
+    },
+    {
+        "id": 25,
+        "name": "grepa",
+        "natural_gift_power": 70,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "grepa-berry",
+        "natural_gift_type": "flying"
+    },
+    {
+        "id": 26,
+        "name": "tamato",
+        "natural_gift_power": 70,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "tamato-berry",
+        "natural_gift_type": "psychic"
+    },
+    {
+        "id": 27,
+        "name": "cornn",
+        "natural_gift_power": 70,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "cornn-berry",
+        "natural_gift_type": "bug"
+    },
+    {
+        "id": 28,
+        "name": "magost",
+        "natural_gift_power": 70,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "magost-berry",
+        "natural_gift_type": "rock"
+    },
+    {
+        "id": 29,
+        "name": "rabuta",
+        "natural_gift_power": 70,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "rabuta-berry",
+        "natural_gift_type": "ghost"
+    },
+    {
+        "id": 30,
+        "name": "nomel",
+        "natural_gift_power": 70,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "nomel-berry",
+        "natural_gift_type": "dragon"
+    },
+    {
+        "id": 31,
+        "name": "spelon",
+        "natural_gift_power": 70,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "spelon-berry",
+        "natural_gift_type": "dark"
+    },
+    {
+        "id": 32,
+        "name": "pamtre",
+        "natural_gift_power": 70,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "pamtre-berry",
+        "natural_gift_type": "steel"
+    },
+    {
+        "id": 33,
+        "name": "watmel",
+        "natural_gift_power": 80,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "watmel-berry",
+        "natural_gift_type": "fire"
+    },
+    {
+        "id": 34,
+        "name": "durin",
+        "natural_gift_power": 80,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "durin-berry",
+        "natural_gift_type": "water"
+    },
+    {
+        "id": 35,
+        "name": "belue",
+        "natural_gift_power": 80,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "belue-berry",
+        "natural_gift_type": "electric"
+    },
+    {
+        "id": 36,
+        "name": "occa",
+        "natural_gift_power": 60,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "occa-berry",
+        "natural_gift_type": "fire"
+    },
+    {
+        "id": 37,
+        "name": "passho",
+        "natural_gift_power": 60,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "passho-berry",
+        "natural_gift_type": "water"
+    },
+    {
+        "id": 38,
+        "name": "wacan",
+        "natural_gift_power": 60,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "wacan-berry",
+        "natural_gift_type": "electric"
+    },
+    {
+        "id": 39,
+        "name": "rindo",
+        "natural_gift_power": 60,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "rindo-berry",
+        "natural_gift_type": "grass"
+    },
+    {
+        "id": 40,
+        "name": "yache",
+        "natural_gift_power": 60,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "yache-berry",
+        "natural_gift_type": "ice"
+    },
+    {
+        "id": 41,
+        "name": "chople",
+        "natural_gift_power": 60,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "chople-berry",
+        "natural_gift_type": "fighting"
+    },
+    {
+        "id": 42,
+        "name": "kebia",
+        "natural_gift_power": 60,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "kebia-berry",
+        "natural_gift_type": "poison"
+    },
+    {
+        "id": 43,
+        "name": "shuca",
+        "natural_gift_power": 60,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "shuca-berry",
+        "natural_gift_type": "ground"
+    },
+    {
+        "id": 44,
+        "name": "coba",
+        "natural_gift_power": 60,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "coba-berry",
+        "natural_gift_type": "flying"
+    },
+    {
+        "id": 45,
+        "name": "payapa",
+        "natural_gift_power": 60,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "payapa-berry",
+        "natural_gift_type": "psychic"
+    },
+    {
+        "id": 46,
+        "name": "tanga",
+        "natural_gift_power": 60,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "tanga-berry",
+        "natural_gift_type": "bug"
+    },
+    {
+        "id": 47,
+        "name": "charti",
+        "natural_gift_power": 60,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "charti-berry",
+        "natural_gift_type": "rock"
+    },
+    {
+        "id": 48,
+        "name": "kasib",
+        "natural_gift_power": 60,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "kasib-berry",
+        "natural_gift_type": "ghost"
+    },
+    {
+        "id": 49,
+        "name": "haban",
+        "natural_gift_power": 60,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "haban-berry",
+        "natural_gift_type": "dragon"
+    },
+    {
+        "id": 50,
+        "name": "colbur",
+        "natural_gift_power": 60,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "colbur-berry",
+        "natural_gift_type": "dark"
+    },
+    {
+        "id": 51,
+        "name": "babiri",
+        "natural_gift_power": 60,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "babiri-berry",
+        "natural_gift_type": "steel"
+    },
+    {
+        "id": 52,
+        "name": "chilan",
+        "natural_gift_power": 60,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "chilan-berry",
+        "natural_gift_type": "normal"
+    },
+    {
+        "id": 53,
+        "name": "liechi",
+        "natural_gift_power": 80,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "liechi-berry",
+        "natural_gift_type": "grass"
+    },
+    {
+        "id": 54,
+        "name": "ganlon",
+        "natural_gift_power": 80,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "ganlon-berry",
+        "natural_gift_type": "ice"
+    },
+    {
+        "id": 55,
+        "name": "salac",
+        "natural_gift_power": 80,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "salac-berry",
+        "natural_gift_type": "fighting"
+    },
+    {
+        "id": 56,
+        "name": "petaya",
+        "natural_gift_power": 80,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "petaya-berry",
+        "natural_gift_type": "poison"
+    },
+    {
+        "id": 57,
+        "name": "apicot",
+        "natural_gift_power": 80,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "apicot-berry",
+        "natural_gift_type": "ground"
+    },
+    {
+        "id": 58,
+        "name": "lansat",
+        "natural_gift_power": 80,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "lansat-berry",
+        "natural_gift_type": "flying"
+    },
+    {
+        "id": 59,
+        "name": "starf",
+        "natural_gift_power": 80,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "starf-berry",
+        "natural_gift_type": "psychic"
+    },
+    {
+        "id": 60,
+        "name": "enigma",
+        "natural_gift_power": 80,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "enigma-berry",
+        "natural_gift_type": "bug"
+    },
+    {
+        "id": 61,
+        "name": "micle",
+        "natural_gift_power": 80,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "micle-berry",
+        "natural_gift_type": "rock"
+    },
+    {
+        "id": 62,
+        "name": "custap",
+        "natural_gift_power": 80,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "custap-berry",
+        "natural_gift_type": "ghost"
+    },
+    {
+        "id": 63,
+        "name": "jaboca",
+        "natural_gift_power": 80,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "jaboca-berry",
+        "natural_gift_type": "dragon"
+    },
+    {
+        "id": 64,
+        "name": "rowap",
+        "natural_gift_power": 80,
+        "flavors": [
+            "spicy",
+            "dry",
+            "sweet",
+            "bitter",
+            "sour"
+        ],
+        "item": "rowap-berry",
+        "natural_gift_type": "dark"
+    }
+]

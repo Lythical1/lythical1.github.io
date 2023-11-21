@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "cool",
+        "berry_flavor": "spicy",
+        "names": [
+            "Cool"
+        ],
+        "colors": ["Red"]
+    },
+    {
+        "id": 2,
+        "name": "beauty",
+        "berry_flavor": "dry",
+        "names": [
+            "Beauty"
+        ],
+        "colors": ["Blue"]
+    },
+    {
+        "id": 3,
+        "name": "cute",
+        "berry_flavor": "sweet",
+        "names": [
+            "Cute"
+        ],
+        "colors": ["Pink"]
+    },
+    {
+        "id": 4,
+        "name": "smart",
+        "berry_flavor": "bitter",
+        "names": [
+            "Smart"
+        ],
+        "colors": ["Green"]
+    },
+    {
+        "id": 5,
+        "name": "tough",
+        "berry_flavor": "sour",
+        "names": [
+            "Tough"
+        ],
+        "colors": ["Yellow"]
+    }
+]

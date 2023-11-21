@@ -1,0 +1,92 @@
+{
+    "Normal": {
+      "effectiveAgainst": [],
+      "notEffectiveAgainst": ["Rock", "Steel"],
+      "noEffectAgainst": ["Ghost"]
+    },
+    "Fire": {
+      "effectiveAgainst": ["Grass", "Ice", "Bug", "Steel"],
+      "notEffectiveAgainst": ["Fire", "Water", "Rock"],
+      "noEffectAgainst": []
+    },
+    "Water": {
+      "effectiveAgainst": ["Fire", "Ground", "Rock"],
+      "notEffectiveAgainst": ["Water", "Electric"],
+      "noEffectAgainst": []
+    },
+    "Electric": {
+      "effectiveAgainst": ["Water", "Flying"],
+      "notEffectiveAgainst": ["Electric", "Ground"],
+      "noEffectAgainst": []
+    },
+    "Grass": {
+      "effectiveAgainst": ["Water", "Ground", "Rock"],
+      "notEffectiveAgainst": ["Fire", "Grass", "Poison", "Flying", "Bug"],
+      "noEffectAgainst": []
+    },
+    "Ice": {
+      "effectiveAgainst": ["Grass", "Ground", "Flying", "Dragon"],
+      "notEffectiveAgainst": ["Fire", "Water", "Ice", "Steel"],
+      "noEffectAgainst": []
+    },
+    "Fighting": {
+      "effectiveAgainst": ["Normal", "Ice", "Rock", "Dark", "Steel"],
+      "notEffectiveAgainst": ["Poison", "Flying", "Psychic", "Bug", "Fairy"],
+      "noEffectAgainst": ["Ghost"]
+    },
+    "Poison": {
+      "effectiveAgainst": ["Grass", "Fairy"],
+      "notEffectiveAgainst": ["Poison", "Ground", "Rock", "Ghost"],
+      "noEffectAgainst": ["Steel"]
+    },
+    "Ground": {
+      "effectiveAgainst": ["Fire", "Electric", "Poison", "Rock", "Steel"],
+      "notEffectiveAgainst": ["Grass", "Ice", "Water"],
+      "noEffectAgainst": ["Flying"]
+    },
+    "Flying": {
+      "effectiveAgainst": ["Grass", "Fighting", "Bug"],
+      "notEffectiveAgainst": ["Electric", "Rock", "Steel"],
+      "noEffectAgainst": []
+    },
+    "Psychic": {
+      "effectiveAgainst": ["Fighting", "Poison"],
+      "notEffectiveAgainst": ["Psychic", "Steel"],
+      "noEffectAgainst": ["Dark"]
+    },
+    "Bug": {
+      "effectiveAgainst": ["Grass", "Psychic", "Dark"],
+      "notEffectiveAgainst": ["Fire", "Fighting", "Poison", "Flying", "Ghost", "Steel", "Fairy"],
+      "noEffectAgainst": []
+    },
+    "Rock": {
+      "effectiveAgainst": ["Fire", "Ice", "Flying", "Bug"],
+      "notEffectiveAgainst": ["Fighting", "Ground", "Steel"],
+      "noEffectAgainst": []
+    },
+    "Ghost": {
+      "effectiveAgainst": ["Psychic", "Ghost"],
+      "notEffectiveAgainst": ["Dark"],
+      "noEffectAgainst": ["Normal"]
+    },
+    "Dragon": {
+      "effectiveAgainst": ["Dragon"],
+      "notEffectiveAgainst": ["Steel"],
+      "noEffectAgainst": ["Fairy"]
+    },
+    "Dark": {
+      "effectiveAgainst": ["Psychic", "Ghost"],
+      "notEffectiveAgainst": ["Fighting", "Dark", "Fairy"],
+      "noEffectAgainst": []
+    },
+    "Steel": {
+      "effectiveAgainst": ["Ice", "Rock", "Fairy"],
+      "notEffectiveAgainst": ["Fire", "Water", "Electric"],
+      "noEffectAgainst": []
+    },
+    "Fairy": {
+      "effectiveAgainst": ["Fighting", "Dragon", "Dark"],
+      "notEffectiveAgainst": ["Fire", "Poison", "Steel"],
+      "noEffectAgainst": []
+    }
+  }

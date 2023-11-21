@@ -1,0 +1,6233 @@
+[
+    {
+        "id": 1,
+        "name": "canalave-city",
+        "region": "sinnoh",
+        "areas": [
+            "canalave-city-area"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "eterna-city",
+        "region": "sinnoh",
+        "areas": [
+            "eterna-city-area",
+            "eterna-city-west-gate"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "pastoria-city",
+        "region": "sinnoh",
+        "areas": [
+            "pastoria-city-area"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "sunyshore-city",
+        "region": "sinnoh",
+        "areas": [
+            "sunyshore-city-area"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "sinnoh-pokemon-league",
+        "region": "sinnoh",
+        "areas": [
+            "sinnoh-pokemon-league-area"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "oreburgh-mine",
+        "region": "sinnoh",
+        "areas": [
+            "oreburgh-mine-1f",
+            "oreburgh-mine-b1f"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "valley-windworks",
+        "region": "sinnoh",
+        "areas": [
+            "valley-windworks-area"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "eterna-forest",
+        "region": "sinnoh",
+        "areas": [
+            "eterna-forest-area"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "fuego-ironworks",
+        "region": "sinnoh",
+        "areas": [
+            "fuego-ironworks-area"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "mt-coronet",
+        "region": "sinnoh",
+        "areas": [
+            "mt-coronet-1f-route-207",
+            "mt-coronet-2f",
+            "mt-coronet-3f",
+            "mt-coronet-exterior-snowfall",
+            "mt-coronet-exterior-blizzard",
+            "mt-coronet-4f",
+            "mt-coronet-4f-small-room",
+            "mt-coronet-5f",
+            "mt-coronet-6f",
+            "mt-coronet-1f-from-exterior",
+            "mt-coronet-1f-route-216",
+            "mt-coronet-1f-route-211",
+            "mt-coronet-b1f"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "great-marsh",
+        "region": "sinnoh",
+        "areas": [
+            "great-marsh-area-1",
+            "great-marsh-area-2",
+            "great-marsh-area-3",
+            "great-marsh-area-4",
+            "great-marsh-area-5",
+            "great-marsh-area-6"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "solaceon-ruins",
+        "region": "sinnoh",
+        "areas": [
+            "solaceon-ruins-2f",
+            "solaceon-ruins-1f",
+            "solaceon-ruins-b1f-a",
+            "solaceon-ruins-b1f-b",
+            "solaceon-ruins-b1f-c",
+            "solaceon-ruins-b2f-a",
+            "solaceon-ruins-b2f-b",
+            "solaceon-ruins-b2f-c",
+            "solaceon-ruins-b3f-a",
+            "solaceon-ruins-b3f-b",
+            "solaceon-ruins-b3f-c",
+            "solaceon-ruins-b3f-d",
+            "solaceon-ruins-b3f-e",
+            "solaceon-ruins-b4f-a",
+            "solaceon-ruins-b4f-b",
+            "solaceon-ruins-b4f-c",
+            "solaceon-ruins-b4f-d",
+            "solaceon-ruins-b5f"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "sinnoh-victory-road",
+        "region": "sinnoh",
+        "areas": [
+            "sinnoh-victory-road-1f",
+            "sinnoh-victory-road-2f",
+            "sinnoh-victory-road-b1f",
+            "sinnoh-victory-road-inside-b1f",
+            "sinnoh-victory-road-inside",
+            "sinnoh-victory-road-inside-exit"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "ravaged-path",
+        "region": "sinnoh",
+        "areas": [
+            "ravaged-path-area"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "oreburgh-gate",
+        "region": "sinnoh",
+        "areas": [
+            "oreburgh-gate-1f",
+            "oreburgh-gate-b1f"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "stark-mountain",
+        "region": "sinnoh",
+        "areas": [
+            "stark-mountain-area",
+            "stark-mountain-entrance",
+            "stark-mountain-inside",
+            "stark-mountain-heatran-chamber"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "spring-path",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 18,
+        "name": "turnback-cave",
+        "region": "sinnoh",
+        "areas": [
+            "turnback-cave-pillar-1",
+            "turnback-cave-pillar-2",
+            "turnback-cave-pillar-3",
+            "turnback-cave-before-pillar-1",
+            "turnback-cave-between-pillars-1-and-2",
+            "turnback-cave-between-pillars-2-and-3",
+            "turnback-cave-after-pillar-3"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "snowpoint-temple",
+        "region": "sinnoh",
+        "areas": [
+            "snowpoint-temple-1f",
+            "snowpoint-temple-b1f",
+            "snowpoint-temple-b2f",
+            "snowpoint-temple-b3f",
+            "snowpoint-temple-b4f",
+            "snowpoint-temple-b5f"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "wayward-cave",
+        "region": "sinnoh",
+        "areas": [
+            "wayward-cave-1f",
+            "wayward-cave-b1f"
+        ]
+    },
+    {
+        "id": 22,
+        "name": "ruin-maniac-cave",
+        "region": "sinnoh",
+        "areas": [
+            "ruin-maniac-cave-0-9-different-unown-caught",
+            "ruin-maniac-cave-10-25-different-unown-caught"
+        ]
+    },
+    {
+        "id": 23,
+        "name": "trophy-garden",
+        "region": "sinnoh",
+        "areas": [
+            "trophy-garden-area"
+        ]
+    },
+    {
+        "id": 24,
+        "name": "iron-island",
+        "region": "sinnoh",
+        "areas": [
+            "iron-island-area",
+            "iron-island-1f",
+            "iron-island-b1f-left",
+            "iron-island-b1f-right",
+            "iron-island-b2f-right",
+            "iron-island-b2f-left",
+            "iron-island-b3f"
+        ]
+    },
+    {
+        "id": 25,
+        "name": "old-chateau",
+        "region": "sinnoh",
+        "areas": [
+            "old-chateau-entrance",
+            "old-chateau-dining-room",
+            "old-chateau-2f-private-room",
+            "old-chateau-2f",
+            "old-chateau-2f-leftmost-room",
+            "old-chateau-2f-left-room",
+            "old-chateau-2f-middle-room",
+            "old-chateau-2f-right-room",
+            "old-chateau-2f-rightmost-room"
+        ]
+    },
+    {
+        "id": 26,
+        "name": "lake-verity",
+        "region": "sinnoh",
+        "areas": [
+            "lake-verity-before-galactic-intervention",
+            "lake-verity-after-galactic-intervention"
+        ]
+    },
+    {
+        "id": 27,
+        "name": "lake-valor",
+        "region": "sinnoh",
+        "areas": [
+            "lake-valor-area",
+            "lake-valor-cavern"
+        ]
+    },
+    {
+        "id": 28,
+        "name": "lake-acuity",
+        "region": "sinnoh",
+        "areas": [
+            "lake-acuity-area",
+            "lake-acuity-cavern"
+        ]
+    },
+    {
+        "id": 29,
+        "name": "valor-lakefront",
+        "region": "sinnoh",
+        "areas": [
+            "valor-lakefront-area"
+        ]
+    },
+    {
+        "id": 30,
+        "name": "acuity-lakefront",
+        "region": "sinnoh",
+        "areas": [
+            "acuity-lakefront-area"
+        ]
+    },
+    {
+        "id": 31,
+        "name": "sinnoh-route-201",
+        "region": "sinnoh",
+        "areas": [
+            "sinnoh-route-201-area"
+        ]
+    },
+    {
+        "id": 32,
+        "name": "sinnoh-route-202",
+        "region": "sinnoh",
+        "areas": [
+            "sinnoh-route-202-area"
+        ]
+    },
+    {
+        "id": 33,
+        "name": "sinnoh-route-203",
+        "region": "sinnoh",
+        "areas": [
+            "sinnoh-route-203-area"
+        ]
+    },
+    {
+        "id": 34,
+        "name": "sinnoh-route-204",
+        "region": "sinnoh",
+        "areas": [
+            "sinnoh-route-204-south-towards-jubilife-city",
+            "sinnoh-route-204-north-towards-floaroma-town"
+        ]
+    },
+    {
+        "id": 35,
+        "name": "sinnoh-route-205",
+        "region": "sinnoh",
+        "areas": [
+            "sinnoh-route-205-south-towards-floaroma-town",
+            "sinnoh-route-205-east-towards-eterna-city"
+        ]
+    },
+    {
+        "id": 36,
+        "name": "sinnoh-route-206",
+        "region": "sinnoh",
+        "areas": [
+            "sinnoh-route-206-area"
+        ]
+    },
+    {
+        "id": 37,
+        "name": "sinnoh-route-207",
+        "region": "sinnoh",
+        "areas": [
+            "sinnoh-route-207-area"
+        ]
+    },
+    {
+        "id": 38,
+        "name": "sinnoh-route-208",
+        "region": "sinnoh",
+        "areas": [
+            "sinnoh-route-208-area"
+        ]
+    },
+    {
+        "id": 39,
+        "name": "sinnoh-route-209",
+        "region": "sinnoh",
+        "areas": [
+            "sinnoh-route-209-area"
+        ]
+    },
+    {
+        "id": 40,
+        "name": "lost-tower",
+        "region": "sinnoh",
+        "areas": [
+            "lost-tower-1f",
+            "lost-tower-2f",
+            "lost-tower-3f",
+            "lost-tower-4f",
+            "lost-tower-5f"
+        ]
+    },
+    {
+        "id": 41,
+        "name": "sinnoh-route-210",
+        "region": "sinnoh",
+        "areas": [
+            "sinnoh-route-210-south-towards-solaceon-town",
+            "sinnoh-route-210-west-towards-celestic-town"
+        ]
+    },
+    {
+        "id": 42,
+        "name": "sinnoh-route-211",
+        "region": "sinnoh",
+        "areas": [
+            "sinnoh-route-211-west-towards-eterna-city",
+            "sinnoh-route-211-east-towards-celestic-town"
+        ]
+    },
+    {
+        "id": 43,
+        "name": "sinnoh-route-212",
+        "region": "sinnoh",
+        "areas": [
+            "sinnoh-route-212-north-towards-hearthome-city",
+            "sinnoh-route-212-east-towards-pastoria-city"
+        ]
+    },
+    {
+        "id": 44,
+        "name": "sinnoh-route-213",
+        "region": "sinnoh",
+        "areas": [
+            "sinnoh-route-213-area"
+        ]
+    },
+    {
+        "id": 45,
+        "name": "sinnoh-route-214",
+        "region": "sinnoh",
+        "areas": [
+            "sinnoh-route-214-area"
+        ]
+    },
+    {
+        "id": 46,
+        "name": "sinnoh-route-215",
+        "region": "sinnoh",
+        "areas": [
+            "sinnoh-route-215-area"
+        ]
+    },
+    {
+        "id": 47,
+        "name": "sinnoh-route-216",
+        "region": "sinnoh",
+        "areas": [
+            "sinnoh-route-216-area"
+        ]
+    },
+    {
+        "id": 48,
+        "name": "sinnoh-route-217",
+        "region": "sinnoh",
+        "areas": [
+            "sinnoh-route-217-area"
+        ]
+    },
+    {
+        "id": 49,
+        "name": "sinnoh-route-218",
+        "region": "sinnoh",
+        "areas": [
+            "sinnoh-route-218-area"
+        ]
+    },
+    {
+        "id": 50,
+        "name": "sinnoh-route-219",
+        "region": "sinnoh",
+        "areas": [
+            "sinnoh-route-219-area"
+        ]
+    },
+    {
+        "id": 51,
+        "name": "sinnoh-route-221",
+        "region": "sinnoh",
+        "areas": [
+            "sinnoh-route-221-area"
+        ]
+    },
+    {
+        "id": 52,
+        "name": "sinnoh-route-222",
+        "region": "sinnoh",
+        "areas": [
+            "sinnoh-route-222-area"
+        ]
+    },
+    {
+        "id": 53,
+        "name": "sinnoh-route-224",
+        "region": "sinnoh",
+        "areas": [
+            "sinnoh-route-224-area"
+        ]
+    },
+    {
+        "id": 54,
+        "name": "sinnoh-route-225",
+        "region": "sinnoh",
+        "areas": [
+            "sinnoh-route-225-area"
+        ]
+    },
+    {
+        "id": 55,
+        "name": "sinnoh-route-227",
+        "region": "sinnoh",
+        "areas": [
+            "sinnoh-route-227-area"
+        ]
+    },
+    {
+        "id": 56,
+        "name": "sinnoh-route-228",
+        "region": "sinnoh",
+        "areas": [
+            "sinnoh-route-228-area"
+        ]
+    },
+    {
+        "id": 57,
+        "name": "sinnoh-route-229",
+        "region": "sinnoh",
+        "areas": [
+            "sinnoh-route-229-area"
+        ]
+    },
+    {
+        "id": 58,
+        "name": "twinleaf-town",
+        "region": "sinnoh",
+        "areas": [
+            "twinleaf-town-area"
+        ]
+    },
+    {
+        "id": 59,
+        "name": "celestic-town",
+        "region": "sinnoh",
+        "areas": [
+            "celestic-town-area"
+        ]
+    },
+    {
+        "id": 60,
+        "name": "resort-area",
+        "region": "sinnoh",
+        "areas": [
+            "resort-area-area"
+        ]
+    },
+    {
+        "id": 61,
+        "name": "sinnoh-sea-route-220",
+        "region": "sinnoh",
+        "areas": [
+            "sinnoh-sea-route-220-area"
+        ]
+    },
+    {
+        "id": 62,
+        "name": "sinnoh-sea-route-223",
+        "region": "sinnoh",
+        "areas": [
+            "sinnoh-sea-route-223-area"
+        ]
+    },
+    {
+        "id": 63,
+        "name": "sinnoh-sea-route-226",
+        "region": "sinnoh",
+        "areas": [
+            "sinnoh-sea-route-226-area"
+        ]
+    },
+    {
+        "id": 64,
+        "name": "sinnoh-sea-route-230",
+        "region": "sinnoh",
+        "areas": [
+            "sinnoh-sea-route-230-area"
+        ]
+    },
+    {
+        "id": 65,
+        "name": "blackthorn-city",
+        "region": "johto",
+        "areas": [
+            "blackthorn-city-area"
+        ]
+    },
+    {
+        "id": 66,
+        "name": "burned-tower",
+        "region": "johto",
+        "areas": [
+            "burned-tower-1f",
+            "burned-tower-b1f"
+        ]
+    },
+    {
+        "id": 67,
+        "name": "celadon-city",
+        "region": "kanto",
+        "areas": [
+            "celadon-city-area",
+            "celadon-city-celadon-mansion"
+        ]
+    },
+    {
+        "id": 68,
+        "name": "cerulean-city",
+        "region": "kanto",
+        "areas": [
+            "cerulean-city-area"
+        ]
+    },
+    {
+        "id": 69,
+        "name": "cherrygrove-city",
+        "region": "johto",
+        "areas": [
+            "cherrygrove-city-area"
+        ]
+    },
+    {
+        "id": 70,
+        "name": "cianwood-city",
+        "region": "johto",
+        "areas": [
+            "cianwood-city-area",
+            "cianwood-city-manias-house",
+            "cianwood-city-kirks-house",
+            "cianwood-city-pokemon-center"
+        ]
+    },
+    {
+        "id": 71,
+        "name": "cinnabar-island",
+        "region": "kanto",
+        "areas": [
+            "cinnabar-island-area",
+            "cinnabar-island-cinnabar-lab"
+        ]
+    },
+    {
+        "id": 72,
+        "name": "dark-cave",
+        "region": "johto",
+        "areas": [
+            "dark-cave-violet-city-entrance",
+            "dark-cave-blackthorn-city-entrance"
+        ]
+    },
+    {
+        "id": 73,
+        "name": "digletts-cave",
+        "region": "kanto",
+        "areas": [
+            "digletts-cave-area"
+        ]
+    },
+    {
+        "id": 74,
+        "name": "dragons-den",
+        "region": "johto",
+        "areas": [
+            "dragons-den-area"
+        ]
+    },
+    {
+        "id": 75,
+        "name": "ecruteak-city",
+        "region": "johto",
+        "areas": [
+            "ecruteak-city-area"
+        ]
+    },
+    {
+        "id": 76,
+        "name": "fuchsia-city",
+        "region": "kanto",
+        "areas": [
+            "fuchsia-city-area"
+        ]
+    },
+    {
+        "id": 77,
+        "name": "ice-path",
+        "region": "johto",
+        "areas": [
+            "ice-path-1f",
+            "ice-path-b1f",
+            "ice-path-b2f",
+            "ice-path-b3f"
+        ]
+    },
+    {
+        "id": 78,
+        "name": "ilex-forest",
+        "region": "johto",
+        "areas": [
+            "ilex-forest-area"
+        ]
+    },
+    {
+        "id": 79,
+        "name": "lake-of-rage",
+        "region": "johto",
+        "areas": [
+            "lake-of-rage-area"
+        ]
+    },
+    {
+        "id": 80,
+        "name": "mt-moon",
+        "region": "kanto",
+        "areas": [
+            "mt-moon-mt-moon-square",
+            "mt-moon-1f",
+            "mt-moon-2f",
+            "mt-moon-b1f",
+            "mt-moon-b2f"
+        ]
+    },
+    {
+        "id": 81,
+        "name": "mt-mortar",
+        "region": "johto",
+        "areas": [
+            "mt-mortar-1f",
+            "mt-mortar-lower-cave",
+            "mt-mortar-upper-cave",
+            "mt-mortar-b1f"
+        ]
+    },
+    {
+        "id": 82,
+        "name": "mt-silver",
+        "region": "johto",
+        "areas": [
+            "mt-silver-2f",
+            "mt-silver-1f-top",
+            "mt-silver-4f",
+            "mt-silver-outside",
+            "mt-silver-1f",
+            "mt-silver-mountainside",
+            "mt-silver-3f",
+            "mt-silver-top"
+        ]
+    },
+    {
+        "id": 83,
+        "name": "national-park",
+        "region": "johto",
+        "areas": [
+            "national-park-area"
+        ]
+    },
+    {
+        "id": 84,
+        "name": "new-bark-town",
+        "region": "johto",
+        "areas": [
+            "new-bark-town-area"
+        ]
+    },
+    {
+        "id": 85,
+        "name": "olivine-city",
+        "region": "johto",
+        "areas": [
+            "olivine-city-area"
+        ]
+    },
+    {
+        "id": 86,
+        "name": "pallet-town",
+        "region": "kanto",
+        "areas": [
+            "pallet-town-area"
+        ]
+    },
+    {
+        "id": 87,
+        "name": "rock-tunnel",
+        "region": "kanto",
+        "areas": [
+            "rock-tunnel-1f",
+            "rock-tunnel-b1f",
+            "rock-tunnel-b2f"
+        ]
+    },
+    {
+        "id": 88,
+        "name": "kanto-route-1",
+        "region": "kanto",
+        "areas": [
+            "kanto-route-1-area"
+        ]
+    },
+    {
+        "id": 89,
+        "name": "kanto-route-10",
+        "region": "kanto",
+        "areas": [
+            "kanto-route-10-area"
+        ]
+    },
+    {
+        "id": 90,
+        "name": "kanto-route-11",
+        "region": "kanto",
+        "areas": [
+            "kanto-route-11-area"
+        ]
+    },
+    {
+        "id": 91,
+        "name": "kanto-route-12",
+        "region": "kanto",
+        "areas": [
+            "kanto-route-12-area"
+        ]
+    },
+    {
+        "id": 92,
+        "name": "kanto-route-13",
+        "region": "kanto",
+        "areas": [
+            "kanto-route-13-area"
+        ]
+    },
+    {
+        "id": 93,
+        "name": "kanto-route-14",
+        "region": "kanto",
+        "areas": [
+            "kanto-route-14-area"
+        ]
+    },
+    {
+        "id": 94,
+        "name": "kanto-route-15",
+        "region": "kanto",
+        "areas": [
+            "kanto-route-15-area"
+        ]
+    },
+    {
+        "id": 95,
+        "name": "kanto-route-16",
+        "region": "kanto",
+        "areas": [
+            "kanto-route-16-area"
+        ]
+    },
+    {
+        "id": 96,
+        "name": "kanto-route-17",
+        "region": "kanto",
+        "areas": [
+            "kanto-route-17-area"
+        ]
+    },
+    {
+        "id": 97,
+        "name": "kanto-route-18",
+        "region": "kanto",
+        "areas": [
+            "kanto-route-18-area"
+        ]
+    },
+    {
+        "id": 98,
+        "name": "kanto-sea-route-19",
+        "region": "kanto",
+        "areas": [
+            "kanto-sea-route-19-area"
+        ]
+    },
+    {
+        "id": 99,
+        "name": "kanto-route-2",
+        "region": "kanto",
+        "areas": [
+            "kanto-route-2-south-towards-viridian-city",
+            "kanto-route-2-north-towards-pewter-city"
+        ]
+    },
+    {
+        "id": 100,
+        "name": "kanto-sea-route-20",
+        "region": "kanto",
+        "areas": [
+            "kanto-sea-route-20-area"
+        ]
+    },
+    {
+        "id": 101,
+        "name": "kanto-sea-route-21",
+        "region": "kanto",
+        "areas": [
+            "kanto-sea-route-21-area"
+        ]
+    },
+    {
+        "id": 102,
+        "name": "kanto-route-22",
+        "region": "kanto",
+        "areas": [
+            "kanto-route-22-area"
+        ]
+    },
+    {
+        "id": 103,
+        "name": "kanto-route-24",
+        "region": "kanto",
+        "areas": [
+            "kanto-route-24-area"
+        ]
+    },
+    {
+        "id": 104,
+        "name": "kanto-route-25",
+        "region": "kanto",
+        "areas": [
+            "kanto-route-25-area"
+        ]
+    },
+    {
+        "id": 105,
+        "name": "kanto-route-26",
+        "region": "kanto",
+        "areas": [
+            "kanto-route-26-area"
+        ]
+    },
+    {
+        "id": 106,
+        "name": "kanto-route-27",
+        "region": "kanto",
+        "areas": [
+            "kanto-route-27-area"
+        ]
+    },
+    {
+        "id": 107,
+        "name": "kanto-route-28",
+        "region": "kanto",
+        "areas": [
+            "kanto-route-28-area"
+        ]
+    },
+    {
+        "id": 108,
+        "name": "johto-route-29",
+        "region": "johto",
+        "areas": [
+            "johto-route-29-area"
+        ]
+    },
+    {
+        "id": 109,
+        "name": "kanto-route-3",
+        "region": "kanto",
+        "areas": [
+            "kanto-route-3-area",
+            "kanto-route-3-pokemon-center"
+        ]
+    },
+    {
+        "id": 110,
+        "name": "johto-route-30",
+        "region": "johto",
+        "areas": [
+            "johto-route-30-area"
+        ]
+    },
+    {
+        "id": 111,
+        "name": "johto-route-31",
+        "region": "johto",
+        "areas": [
+            "johto-route-31-area"
+        ]
+    },
+    {
+        "id": 112,
+        "name": "johto-route-32",
+        "region": "johto",
+        "areas": [
+            "johto-route-32-area"
+        ]
+    },
+    {
+        "id": 113,
+        "name": "johto-route-33",
+        "region": "johto",
+        "areas": [
+            "johto-route-33-area"
+        ]
+    },
+    {
+        "id": 114,
+        "name": "johto-route-34",
+        "region": "johto",
+        "areas": [
+            "johto-route-34-area"
+        ]
+    },
+    {
+        "id": 115,
+        "name": "johto-route-35",
+        "region": "johto",
+        "areas": [
+            "johto-route-35-area"
+        ]
+    },
+    {
+        "id": 116,
+        "name": "johto-route-36",
+        "region": "johto",
+        "areas": [
+            "johto-route-36-area"
+        ]
+    },
+    {
+        "id": 117,
+        "name": "johto-route-37",
+        "region": "johto",
+        "areas": [
+            "johto-route-37-area"
+        ]
+    },
+    {
+        "id": 118,
+        "name": "johto-route-38",
+        "region": "johto",
+        "areas": [
+            "johto-route-38-area"
+        ]
+    },
+    {
+        "id": 119,
+        "name": "johto-route-39",
+        "region": "johto",
+        "areas": [
+            "johto-route-39-area"
+        ]
+    },
+    {
+        "id": 120,
+        "name": "kanto-route-4",
+        "region": "kanto",
+        "areas": [
+            "kanto-route-4-area",
+            "kanto-route-4-pokemon-center"
+        ]
+    },
+    {
+        "id": 121,
+        "name": "johto-sea-route-40",
+        "region": "johto",
+        "areas": [
+            "johto-sea-route-40-area"
+        ]
+    },
+    {
+        "id": 122,
+        "name": "johto-sea-route-41",
+        "region": "johto",
+        "areas": [
+            "johto-sea-route-41-area"
+        ]
+    },
+    {
+        "id": 123,
+        "name": "johto-route-42",
+        "region": "johto",
+        "areas": [
+            "johto-route-42-area"
+        ]
+    },
+    {
+        "id": 124,
+        "name": "johto-route-43",
+        "region": "johto",
+        "areas": [
+            "johto-route-43-area"
+        ]
+    },
+    {
+        "id": 125,
+        "name": "johto-route-44",
+        "region": "johto",
+        "areas": [
+            "johto-route-44-area"
+        ]
+    },
+    {
+        "id": 126,
+        "name": "johto-route-45",
+        "region": "johto",
+        "areas": [
+            "johto-route-45-area"
+        ]
+    },
+    {
+        "id": 127,
+        "name": "johto-route-46",
+        "region": "johto",
+        "areas": [
+            "johto-route-46-area"
+        ]
+    },
+    {
+        "id": 128,
+        "name": "johto-route-47",
+        "region": "johto",
+        "areas": [
+            "johto-route-47-area",
+            "johto-route-47-cave-gate",
+            "johto-route-47-inside-cave"
+        ]
+    },
+    {
+        "id": 129,
+        "name": "johto-route-48",
+        "region": "johto",
+        "areas": [
+            "johto-route-48-area"
+        ]
+    },
+    {
+        "id": 130,
+        "name": "kanto-route-5",
+        "region": "kanto",
+        "areas": [
+            "kanto-route-5-area"
+        ]
+    },
+    {
+        "id": 131,
+        "name": "kanto-route-6",
+        "region": "kanto",
+        "areas": [
+            "kanto-route-6-area"
+        ]
+    },
+    {
+        "id": 132,
+        "name": "kanto-route-7",
+        "region": "kanto",
+        "areas": [
+            "kanto-route-7-area"
+        ]
+    },
+    {
+        "id": 133,
+        "name": "kanto-route-8",
+        "region": "kanto",
+        "areas": [
+            "kanto-route-8-area"
+        ]
+    },
+    {
+        "id": 134,
+        "name": "kanto-route-9",
+        "region": "kanto",
+        "areas": [
+            "kanto-route-9-area"
+        ]
+    },
+    {
+        "id": 135,
+        "name": "ruins-of-alph",
+        "region": "johto",
+        "areas": [
+            "ruins-of-alph-outside",
+            "ruins-of-alph-interior-a",
+            "ruins-of-alph-interior-b",
+            "ruins-of-alph-interior-c",
+            "ruins-of-alph-interior-d"
+        ]
+    },
+    {
+        "id": 136,
+        "name": "seafoam-islands",
+        "region": "kanto",
+        "areas": [
+            "seafoam-islands-1f",
+            "seafoam-islands-b1f",
+            "seafoam-islands-b2f",
+            "seafoam-islands-b3f",
+            "seafoam-islands-b4f"
+        ]
+    },
+    {
+        "id": 137,
+        "name": "slowpoke-well",
+        "region": "johto",
+        "areas": [
+            "slowpoke-well-1f",
+            "slowpoke-well-b1f"
+        ]
+    },
+    {
+        "id": 138,
+        "name": "sprout-tower",
+        "region": "johto",
+        "areas": [
+            "sprout-tower-2f",
+            "sprout-tower-3f"
+        ]
+    },
+    {
+        "id": 139,
+        "name": "bell-tower",
+        "region": "johto",
+        "areas": [
+            "bell-tower-2f",
+            "bell-tower-3f",
+            "bell-tower-4f",
+            "bell-tower-5f",
+            "bell-tower-6f",
+            "bell-tower-7f",
+            "bell-tower-8f",
+            "bell-tower-9f",
+            "bell-tower-10f",
+            "bell-tower-roof",
+            "bell-tower-1f"
+        ]
+    },
+    {
+        "id": 140,
+        "name": "tohjo-falls",
+        "region": "johto",
+        "areas": [
+            "tohjo-falls-area"
+        ]
+    },
+    {
+        "id": 141,
+        "name": "union-cave",
+        "region": "johto",
+        "areas": [
+            "union-cave-1f",
+            "union-cave-b1f",
+            "union-cave-b2f"
+        ]
+    },
+    {
+        "id": 147,
+        "name": "cerulean-cave",
+        "region": "kanto",
+        "areas": [
+            "cerulean-cave-1f",
+            "cerulean-cave-2f",
+            "cerulean-cave-b1f"
+        ]
+    },
+    {
+        "id": 148,
+        "name": "unknown-all-poliwag",
+        "region": "johto",
+        "areas": [
+            "unknown-all-poliwag-area"
+        ]
+    },
+    {
+        "id": 149,
+        "name": "unknown-all-rattata",
+        "region": "johto",
+        "areas": [
+            "unknown-all-rattata-area"
+        ]
+    },
+    {
+        "id": 150,
+        "name": "unknown-all-bugs",
+        "region": "johto",
+        "areas": [
+            "unknown-all-bugs-area"
+        ]
+    },
+    {
+        "id": 151,
+        "name": "vermilion-city",
+        "region": "kanto",
+        "areas": [
+            "vermilion-city-area",
+            "vermilion-city-ss-anne-dock"
+        ]
+    },
+    {
+        "id": 152,
+        "name": "kanto-victory-road-1",
+        "region": "kanto",
+        "areas": [
+            "kanto-victory-road-1-1f",
+            "kanto-victory-road-1-2f",
+            "kanto-victory-road-1-3f"
+        ]
+    },
+    {
+        "id": 153,
+        "name": "violet-city",
+        "region": "johto",
+        "areas": [
+            "violet-city-area",
+            "violet-city-poke-mart",
+            "violet-city-pokemon-center"
+        ]
+    },
+    {
+        "id": 154,
+        "name": "viridian-city",
+        "region": "kanto",
+        "areas": [
+            "viridian-city-area"
+        ]
+    },
+    {
+        "id": 155,
+        "name": "viridian-forest",
+        "region": "kanto",
+        "areas": [
+            "viridian-forest-area"
+        ]
+    },
+    {
+        "id": 156,
+        "name": "whirl-islands",
+        "region": "johto",
+        "areas": [
+            "whirl-islands-1f",
+            "whirl-islands-b1f",
+            "whirl-islands-empty-floor-x",
+            "whirl-islands-b2f",
+            "whirl-islands-empty-floor-y",
+            "whirl-islands-b3f"
+        ]
+    },
+    {
+        "id": 157,
+        "name": "kanto-route-23",
+        "region": "kanto",
+        "areas": [
+            "kanto-route-23-area"
+        ]
+    },
+    {
+        "id": 158,
+        "name": "power-plant",
+        "region": "kanto",
+        "areas": [
+            "power-plant-area"
+        ]
+    },
+    {
+        "id": 159,
+        "name": "kanto-victory-road-2",
+        "region": "kanto",
+        "areas": [
+            "kanto-victory-road-2-1f",
+            "kanto-victory-road-2-2f",
+            "kanto-victory-road-2-3f"
+        ]
+    },
+    {
+        "id": 160,
+        "name": "pokemon-tower",
+        "region": "kanto",
+        "areas": [
+            "pokemon-tower-1f",
+            "pokemon-tower-2f",
+            "pokemon-tower-3f",
+            "pokemon-tower-4f",
+            "pokemon-tower-5f",
+            "pokemon-tower-6f",
+            "pokemon-tower-7f"
+        ]
+    },
+    {
+        "id": 161,
+        "name": "pokemon-mansion",
+        "region": "kanto",
+        "areas": [
+            "pokemon-mansion-1f",
+            "pokemon-mansion-2f",
+            "pokemon-mansion-3f",
+            "pokemon-mansion-b1f"
+        ]
+    },
+    {
+        "id": 162,
+        "name": "kanto-safari-zone",
+        "region": "kanto",
+        "areas": [
+            "kanto-safari-zone-middle",
+            "kanto-safari-zone-area-1-east",
+            "kanto-safari-zone-area-2-north",
+            "kanto-safari-zone-area-3-west"
+        ]
+    },
+    {
+        "id": 163,
+        "name": "sandgem-town",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 164,
+        "name": "floaroma-town",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 165,
+        "name": "solaceon-town",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 167,
+        "name": "jubilife-city",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 168,
+        "name": "oreburgh-city",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 169,
+        "name": "hearthome-city",
+        "region": "sinnoh",
+        "areas": [
+            "hearthome-city-area",
+            "hearthome-city-west-gate"
+        ]
+    },
+    {
+        "id": 170,
+        "name": "veilstone-city",
+        "region": "sinnoh",
+        "areas": [
+            "veilstone-city-area"
+        ]
+    },
+    {
+        "id": 171,
+        "name": "snowpoint-city",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 172,
+        "name": "spear-pillar",
+        "region": "sinnoh",
+        "areas": [
+            "spear-pillar-area"
+        ]
+    },
+    {
+        "id": 173,
+        "name": "pal-park",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 174,
+        "name": "amity-square",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 175,
+        "name": "floaroma-meadow",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 177,
+        "name": "fullmoon-island",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 178,
+        "name": "sendoff-spring",
+        "region": "sinnoh",
+        "areas": [
+            "sendoff-spring-area"
+        ]
+    },
+    {
+        "id": 179,
+        "name": "flower-paradise",
+        "region": "sinnoh",
+        "areas": [
+            "flower-paradise-area"
+        ]
+    },
+    {
+        "id": 180,
+        "name": "maniac-tunnel",
+        "region": "sinnoh",
+        "areas": [
+            "maniac-tunnel-26-plus-different-unown-caught"
+        ]
+    },
+    {
+        "id": 181,
+        "name": "galactic-hq",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 182,
+        "name": "verity-lakefront",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 183,
+        "name": "newmoon-island",
+        "region": "sinnoh",
+        "areas": [
+            "newmoon-island-area"
+        ]
+    },
+    {
+        "id": 184,
+        "name": "sinnoh-battle-tower",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 185,
+        "name": "fight-area",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 186,
+        "name": "survival-area",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 187,
+        "name": "seabreak-path",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 188,
+        "name": "sinnoh-hall-of-origin-1",
+        "region": "sinnoh",
+        "areas": [
+            "sinnoh-hall-of-origin-1-area"
+        ]
+    },
+    {
+        "id": 189,
+        "name": "sinnoh-hall-of-origin-2",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 190,
+        "name": "verity-cavern",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 191,
+        "name": "valor-cavern",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 192,
+        "name": "acuity-cavern",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 193,
+        "name": "jubilife-tv",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 194,
+        "name": "poketch-co",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 195,
+        "name": "gts",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 196,
+        "name": "trainers-school",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 197,
+        "name": "mining-museum",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 198,
+        "name": "sinnoh-flower-shop",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 199,
+        "name": "sinnoh-cycle-shop",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 200,
+        "name": "contest-hall",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 201,
+        "name": "poffin-house",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 202,
+        "name": "sinnoh-foreign-building",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 203,
+        "name": "pokemon-day-care",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 204,
+        "name": "veilstone-store",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 205,
+        "name": "sinnoh-game-corner",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 206,
+        "name": "canalave-library",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 207,
+        "name": "vista-lighthouse",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 208,
+        "name": "sunyshore-market",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 209,
+        "name": "footstep-house",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 210,
+        "name": "sinnoh-cafe",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 211,
+        "name": "grand-lake",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 212,
+        "name": "sinnoh-restaurant",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 213,
+        "name": "battle-park",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 214,
+        "name": "battle-frontier",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 215,
+        "name": "battle-factory",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 216,
+        "name": "battle-castle",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 217,
+        "name": "battle-arcade",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 218,
+        "name": "battle-hall",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 219,
+        "name": "distortion-world",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 220,
+        "name": "sinnoh-global-terminal",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 221,
+        "name": "sinnoh-villa",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 222,
+        "name": "battleground",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 223,
+        "name": "rotoms-room",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 224,
+        "name": "tg-eterna-bldg",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 225,
+        "name": "iron-ruins",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 226,
+        "name": "iceberg-ruins",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 227,
+        "name": "rock-peak-ruins",
+        "region": "sinnoh",
+        "areas": []
+    },
+    {
+        "id": 228,
+        "name": "azalea-town",
+        "region": "johto",
+        "areas": [
+            "azalea-town-area"
+        ]
+    },
+    {
+        "id": 229,
+        "name": "goldenrod-city",
+        "region": "johto",
+        "areas": [
+            "goldenrod-city-north-gate",
+            "goldenrod-city-bills-house"
+        ]
+    },
+    {
+        "id": 230,
+        "name": "mahogany-town",
+        "region": "johto",
+        "areas": [
+            "mahogany-town-area"
+        ]
+    },
+    {
+        "id": 231,
+        "name": "pewter-city",
+        "region": "kanto",
+        "areas": []
+    },
+    {
+        "id": 232,
+        "name": "lavender-town",
+        "region": "kanto",
+        "areas": []
+    },
+    {
+        "id": 233,
+        "name": "indigo-plateau",
+        "region": "kanto",
+        "areas": []
+    },
+    {
+        "id": 234,
+        "name": "saffron-city",
+        "region": "kanto",
+        "areas": [
+            "saffron-city-fighting-dojo",
+            "saffron-city-silph-co-7f",
+            "saffron-city-silph-co"
+        ]
+    },
+    {
+        "id": 236,
+        "name": "johto-lighthouse",
+        "region": "johto",
+        "areas": []
+    },
+    {
+        "id": 237,
+        "name": "team-rocket-hq",
+        "region": "johto",
+        "areas": [
+            "team-rocket-hq-area"
+        ]
+    },
+    {
+        "id": 238,
+        "name": "goldenrod-tunnel",
+        "region": "johto",
+        "areas": []
+    },
+    {
+        "id": 239,
+        "name": "mt-silver-cave",
+        "region": "johto",
+        "areas": []
+    },
+    {
+        "id": 241,
+        "name": "pokeathlon-dome",
+        "region": "johto",
+        "areas": []
+    },
+    {
+        "id": 242,
+        "name": "ss-aqua",
+        "region": "johto",
+        "areas": []
+    },
+    {
+        "id": 243,
+        "name": "safari-zone-gate",
+        "region": "johto",
+        "areas": []
+    },
+    {
+        "id": 244,
+        "name": "cliff-cave",
+        "region": "johto",
+        "areas": []
+    },
+    {
+        "id": 245,
+        "name": "frontier-access",
+        "region": "johto",
+        "areas": []
+    },
+    {
+        "id": 246,
+        "name": "bellchime-trail",
+        "region": "johto",
+        "areas": []
+    },
+    {
+        "id": 247,
+        "name": "sinjoh-ruins",
+        "region": "johto",
+        "areas": [
+            "sinjoh-ruins-area"
+        ]
+    },
+    {
+        "id": 248,
+        "name": "embedded-tower",
+        "region": "johto",
+        "areas": [
+            "embedded-tower-kyogre-room",
+            "embedded-tower-groundon-room",
+            "embedded-tower-rayquaza-room"
+        ]
+    },
+    {
+        "id": 249,
+        "name": "pokewalker",
+        "region": "johto",
+        "areas": []
+    },
+    {
+        "id": 250,
+        "name": "cliff-edge-gate",
+        "region": "johto",
+        "areas": []
+    },
+    {
+        "id": 252,
+        "name": "radio-tower",
+        "region": "johto",
+        "areas": []
+    },
+    {
+        "id": 253,
+        "name": "day-care-couple",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 254,
+        "name": "link-trade-arrive",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 255,
+        "name": "link-trade-met",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 256,
+        "name": "kanto",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 257,
+        "name": "johto",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 258,
+        "name": "hoenn",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 259,
+        "name": "sinnoh",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 260,
+        "name": "distant-land",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 261,
+        "name": "traveling-man",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 262,
+        "name": "riley",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 263,
+        "name": "cynthia",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 264,
+        "name": "mystery-zone",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 265,
+        "name": "lovely-place",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 266,
+        "name": "pokemon-ranger",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 267,
+        "name": "faraway-place",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 268,
+        "name": "pokemon-movie",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 269,
+        "name": "pokemon-movie-06",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 270,
+        "name": "pokemon-movie-07",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 271,
+        "name": "pokemon-movie-08",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 272,
+        "name": "pokemon-movie-09",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 273,
+        "name": "pokemon-movie-10",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 274,
+        "name": "pokemon-movie-11",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 275,
+        "name": "pokemon-movie-12",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 276,
+        "name": "pokemon-movie-13",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 277,
+        "name": "pokemon-movie-14",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 278,
+        "name": "pokemon-movie-15",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 279,
+        "name": "pokemon-movie-16",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 280,
+        "name": "pokemon-cartoon",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 281,
+        "name": "space-world",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 282,
+        "name": "space-world-06",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 283,
+        "name": "space-world-07",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 284,
+        "name": "space-world-08",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 285,
+        "name": "space-world-09",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 286,
+        "name": "space-world-10",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 287,
+        "name": "space-world-11",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 288,
+        "name": "space-world-12",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 289,
+        "name": "space-world-13",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 290,
+        "name": "space-world-14",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 291,
+        "name": "space-world-15",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 292,
+        "name": "space-world-16",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 293,
+        "name": "pokemon-festa",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 294,
+        "name": "pokemon-festa-06",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 295,
+        "name": "pokemon-festa-07",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 296,
+        "name": "pokemon-festa-08",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 297,
+        "name": "pokemon-festa-09",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 298,
+        "name": "pokemon-festa-10",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 299,
+        "name": "pokemon-festa-11",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 300,
+        "name": "pokemon-festa-12",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 301,
+        "name": "pokemon-festa-13",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 302,
+        "name": "pokemon-festa-14",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 303,
+        "name": "pokemon-festa-15",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 304,
+        "name": "pokemon-festa-16",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 305,
+        "name": "pokepark",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 306,
+        "name": "pokepark-06",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 307,
+        "name": "pokepark-07",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 308,
+        "name": "pokepark-08",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 309,
+        "name": "pokepark-09",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 310,
+        "name": "pokepark-10",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 311,
+        "name": "pokepark-11",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 312,
+        "name": "pokepark-12",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 313,
+        "name": "pokepark-13",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 314,
+        "name": "pokepark-14",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 315,
+        "name": "pokepark-15",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 316,
+        "name": "pokepark-16",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 317,
+        "name": "pokemon-center",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 318,
+        "name": "pc-tokyo",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 319,
+        "name": "pc-osaka",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 320,
+        "name": "pc-fukuoka",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 321,
+        "name": "pc-nagoya",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 322,
+        "name": "pc-sapporo",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 323,
+        "name": "pc-yokohama",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 324,
+        "name": "nintendo-world",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 325,
+        "name": "pokemon-event",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 326,
+        "name": "pokemon-event-06",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 327,
+        "name": "pokemon-event-07",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 328,
+        "name": "pokemon-event-08",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 329,
+        "name": "pokemon-event-09",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 330,
+        "name": "pokemon-event-10",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 331,
+        "name": "pokemon-event-11",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 332,
+        "name": "pokemon-event-12",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 333,
+        "name": "pokemon-event-13",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 334,
+        "name": "pokemon-event-14",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 335,
+        "name": "pokemon-event-15",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 336,
+        "name": "pokemon-event-16",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 337,
+        "name": "wi-fi-event",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 338,
+        "name": "wi-fi-gift",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 339,
+        "name": "pokemon-fan-club",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 340,
+        "name": "event-site",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 341,
+        "name": "concert-event",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 342,
+        "name": "mr-pokemon",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 343,
+        "name": "primo",
+        "region": null,
+        "areas": []
+    },
+    {
+        "id": 344,
+        "name": "unova-mystery-zone",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 345,
+        "name": "unova-faraway-place",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 346,
+        "name": "nuvema-town",
+        "region": "unova",
+        "areas": [
+            "nuvema-town-area"
+        ]
+    },
+    {
+        "id": 347,
+        "name": "accumula-town",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 348,
+        "name": "striaton-city",
+        "region": "unova",
+        "areas": [
+            "striaton-city-area"
+        ]
+    },
+    {
+        "id": 349,
+        "name": "nacrene-city",
+        "region": "unova",
+        "areas": [
+            "nacrene-city-west-gate"
+        ]
+    },
+    {
+        "id": 350,
+        "name": "castelia-city",
+        "region": "unova",
+        "areas": [
+            "castelia-city-area",
+            "castelia-city-game-freak-hq-1f"
+        ]
+    },
+    {
+        "id": 351,
+        "name": "nimbasa-city",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 352,
+        "name": "driftveil-city",
+        "region": "unova",
+        "areas": [
+            "driftveil-city-area"
+        ]
+    },
+    {
+        "id": 353,
+        "name": "mistralton-city",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 354,
+        "name": "icirrus-city",
+        "region": "unova",
+        "areas": [
+            "icirrus-city-area"
+        ]
+    },
+    {
+        "id": 355,
+        "name": "opelucid-city",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 356,
+        "name": "unova-route-1",
+        "region": "unova",
+        "areas": [
+            "unova-route-1-area"
+        ]
+    },
+    {
+        "id": 357,
+        "name": "unova-route-2",
+        "region": "unova",
+        "areas": [
+            "unova-route-2-area"
+        ]
+    },
+    {
+        "id": 358,
+        "name": "unova-route-3",
+        "region": "unova",
+        "areas": [
+            "unova-route-3-area"
+        ]
+    },
+    {
+        "id": 359,
+        "name": "unova-route-4",
+        "region": "unova",
+        "areas": [
+            "unova-route-4-area"
+        ]
+    },
+    {
+        "id": 360,
+        "name": "unova-route-5",
+        "region": "unova",
+        "areas": [
+            "unova-route-5-area"
+        ]
+    },
+    {
+        "id": 361,
+        "name": "unova-route-6",
+        "region": "unova",
+        "areas": [
+            "unova-route-6-area",
+            "unova-route-6-weather-institute"
+        ]
+    },
+    {
+        "id": 362,
+        "name": "unova-route-7",
+        "region": "unova",
+        "areas": [
+            "unova-route-7-area"
+        ]
+    },
+    {
+        "id": 363,
+        "name": "unova-route-8",
+        "region": "unova",
+        "areas": [
+            "unova-route-8-area"
+        ]
+    },
+    {
+        "id": 364,
+        "name": "unova-route-9",
+        "region": "unova",
+        "areas": [
+            "unova-route-9-area"
+        ]
+    },
+    {
+        "id": 365,
+        "name": "unova-route-10",
+        "region": "unova",
+        "areas": [
+            "unova-route-10-area",
+            "unova-route-10-victory-road-gate"
+        ]
+    },
+    {
+        "id": 366,
+        "name": "unova-route-11",
+        "region": "unova",
+        "areas": [
+            "unova-route-11-area"
+        ]
+    },
+    {
+        "id": 367,
+        "name": "unova-route-12",
+        "region": "unova",
+        "areas": [
+            "unova-route-12-area"
+        ]
+    },
+    {
+        "id": 368,
+        "name": "unova-route-13",
+        "region": "unova",
+        "areas": [
+            "unova-route-13-area"
+        ]
+    },
+    {
+        "id": 369,
+        "name": "unova-route-14",
+        "region": "unova",
+        "areas": [
+            "unova-route-14-area"
+        ]
+    },
+    {
+        "id": 370,
+        "name": "unova-route-15",
+        "region": "unova",
+        "areas": [
+            "unova-route-15-area"
+        ]
+    },
+    {
+        "id": 371,
+        "name": "unova-route-16",
+        "region": "unova",
+        "areas": [
+            "unova-route-16-area"
+        ]
+    },
+    {
+        "id": 372,
+        "name": "unova-route-17",
+        "region": "unova",
+        "areas": [
+            "unova-route-17-area"
+        ]
+    },
+    {
+        "id": 373,
+        "name": "unova-route-18",
+        "region": "unova",
+        "areas": [
+            "unova-route-18-area"
+        ]
+    },
+    {
+        "id": 374,
+        "name": "dreamyard",
+        "region": "unova",
+        "areas": [
+            "dreamyard-area",
+            "dreamyard-b1f"
+        ]
+    },
+    {
+        "id": 375,
+        "name": "pinwheel-forest",
+        "region": "unova",
+        "areas": [
+            "pinwheel-forest-outside",
+            "pinwheel-forest-inside"
+        ]
+    },
+    {
+        "id": 376,
+        "name": "desert-resort",
+        "region": "unova",
+        "areas": [
+            "desert-resort-entrance",
+            "desert-resort-area"
+        ]
+    },
+    {
+        "id": 377,
+        "name": "relic-castle",
+        "region": "unova",
+        "areas": [
+            "relic-castle-a",
+            "relic-castle-b",
+            "relic-castle-c",
+            "relic-castle-d"
+        ]
+    },
+    {
+        "id": 378,
+        "name": "cold-storage",
+        "region": "unova",
+        "areas": [
+            "cold-storage-area"
+        ]
+    },
+    {
+        "id": 379,
+        "name": "chargestone-cave",
+        "region": "unova",
+        "areas": [
+            "chargestone-cave-1f",
+            "chargestone-cave-b1f",
+            "chargestone-cave-b2f"
+        ]
+    },
+    {
+        "id": 380,
+        "name": "twist-mountain",
+        "region": "unova",
+        "areas": [
+            "twist-mountain-area"
+        ]
+    },
+    {
+        "id": 381,
+        "name": "dragonspiral-tower",
+        "region": "unova",
+        "areas": [
+            "dragonspiral-tower-entrance",
+            "dragonspiral-tower-outside",
+            "dragonspiral-tower-1f",
+            "dragonspiral-tower-2f"
+        ]
+    },
+    {
+        "id": 382,
+        "name": "unova-victory-road",
+        "region": "unova",
+        "areas": [
+            "unova-victory-road-outside",
+            "unova-victory-road-unknown-area-53",
+            "unova-victory-road-unknown-area-54",
+            "unova-victory-road-unknown-area-55",
+            "unova-victory-road-unknown-area-56",
+            "unova-victory-road-unknown-area-57",
+            "unova-victory-road-unknown-area-58",
+            "unova-victory-road-unknown-area-59",
+            "unova-victory-road-unknown-area-60",
+            "unova-victory-road-unknown-area-61",
+            "unova-victory-road-unknown-area-62",
+            "unova-victory-road-unknown-area-63",
+            "unova-victory-road-unknown-area-64",
+            "unova-victory-road-unknown-area-65",
+            "unova-victory-road-unknown-area-66",
+            "unova-victory-road-7f"
+        ]
+    },
+    {
+        "id": 383,
+        "name": "lacunosa-town",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 384,
+        "name": "undella-town",
+        "region": "unova",
+        "areas": [
+            "undella-town-area"
+        ]
+    },
+    {
+        "id": 385,
+        "name": "anville-town",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 386,
+        "name": "unova-pokemon-league",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 387,
+        "name": "ns-castle",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 388,
+        "name": "royal-unova",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 389,
+        "name": "gear-station",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 390,
+        "name": "battle-subway",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 391,
+        "name": "musical-theater",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 392,
+        "name": "black-city",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 393,
+        "name": "white-forest",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 394,
+        "name": "unity-tower",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 395,
+        "name": "wellspring-cave",
+        "region": "unova",
+        "areas": [
+            "wellspring-cave-area"
+        ]
+    },
+    {
+        "id": 396,
+        "name": "mistralton-cave",
+        "region": "unova",
+        "areas": [
+            "mistralton-cave-area"
+        ]
+    },
+    {
+        "id": 397,
+        "name": "rumination-field",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 398,
+        "name": "celestial-tower",
+        "region": "unova",
+        "areas": [
+            "celestial-tower-2f",
+            "celestial-tower-3f",
+            "celestial-tower-4f",
+            "celestial-tower-5f"
+        ]
+    },
+    {
+        "id": 399,
+        "name": "moor-of-icirrus",
+        "region": "unova",
+        "areas": [
+            "moor-of-icirrus-area"
+        ]
+    },
+    {
+        "id": 400,
+        "name": "unova-shopping-mall",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 401,
+        "name": "challengers-cave",
+        "region": "unova",
+        "areas": [
+            "challengers-cave-1f",
+            "challengers-cave-b1f",
+            "challengers-cave-b2f"
+        ]
+    },
+    {
+        "id": 402,
+        "name": "poke-transfer-lab",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 403,
+        "name": "giant-chasm",
+        "region": "unova",
+        "areas": [
+            "giant-chasm-outside",
+            "giant-chasm-area",
+            "giant-chasm-forest",
+            "giant-chasm-forest-cave"
+        ]
+    },
+    {
+        "id": 404,
+        "name": "liberty-garden",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 405,
+        "name": "p2-laboratory",
+        "region": "unova",
+        "areas": [
+            "p2-laboratory-area"
+        ]
+    },
+    {
+        "id": 406,
+        "name": "skyarrow-bridge",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 407,
+        "name": "driftveil-drawbridge",
+        "region": "unova",
+        "areas": [
+            "driftveil-drawbridge-area"
+        ]
+    },
+    {
+        "id": 408,
+        "name": "tubeline-bridge",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 409,
+        "name": "village-bridge",
+        "region": "unova",
+        "areas": [
+            "village-bridge-area"
+        ]
+    },
+    {
+        "id": 410,
+        "name": "marvelous-bridge",
+        "region": "unova",
+        "areas": [
+            "marvelous-bridge-area"
+        ]
+    },
+    {
+        "id": 411,
+        "name": "entralink",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 412,
+        "name": "abundant-shrine",
+        "region": "unova",
+        "areas": [
+            "abundant-shrine-area"
+        ]
+    },
+    {
+        "id": 413,
+        "name": "undella-bay",
+        "region": "unova",
+        "areas": [
+            "undella-bay-area"
+        ]
+    },
+    {
+        "id": 414,
+        "name": "lostlorn-forest",
+        "region": "unova",
+        "areas": [
+            "lostlorn-forest-area"
+        ]
+    },
+    {
+        "id": 415,
+        "name": "trial-chamber",
+        "region": "unova",
+        "areas": [
+            "trial-chamber-area"
+        ]
+    },
+    {
+        "id": 416,
+        "name": "guidance-chamber",
+        "region": "unova",
+        "areas": [
+            "guidance-chamber-area"
+        ]
+    },
+    {
+        "id": 417,
+        "name": "entree-forest",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 418,
+        "name": "accumula-gate",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 419,
+        "name": "undella-gate",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 420,
+        "name": "nacrene-gate",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 421,
+        "name": "castelia-gate",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 422,
+        "name": "nimbasa-gate",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 423,
+        "name": "opelucid-gate",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 424,
+        "name": "black-gate",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 425,
+        "name": "white-gate",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 426,
+        "name": "bridge-gate",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 427,
+        "name": "route-gate",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 428,
+        "name": "abyssal-ruins",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 429,
+        "name": "petalburg-city",
+        "region": "hoenn",
+        "areas": [
+            "petalburg-city-area"
+        ]
+    },
+    {
+        "id": 430,
+        "name": "slateport-city",
+        "region": "hoenn",
+        "areas": [
+            "slateport-city-area",
+            "slateport-city-contest-hall"
+        ]
+    },
+    {
+        "id": 431,
+        "name": "lilycove-city",
+        "region": "hoenn",
+        "areas": [
+            "lilycove-city-area",
+            "lilycove-city-contest-hall"
+        ]
+    },
+    {
+        "id": 432,
+        "name": "mossdeep-city",
+        "region": "hoenn",
+        "areas": [
+            "mossdeep-city-area",
+            "mossdeep-city-stevens-house"
+        ]
+    },
+    {
+        "id": 433,
+        "name": "sootopolis-city",
+        "region": "hoenn",
+        "areas": [
+            "sootopolis-city-area"
+        ]
+    },
+    {
+        "id": 434,
+        "name": "ever-grande-city",
+        "region": "hoenn",
+        "areas": [
+            "ever-grande-city-area"
+        ]
+    },
+    {
+        "id": 435,
+        "name": "meteor-falls",
+        "region": "hoenn",
+        "areas": [
+            "meteor-falls-area",
+            "meteor-falls-back",
+            "meteor-falls-b1f",
+            "meteor-falls-backsmall-room"
+        ]
+    },
+    {
+        "id": 436,
+        "name": "rusturf-tunnel",
+        "region": "hoenn",
+        "areas": [
+            "rusturf-tunnel-area"
+        ]
+    },
+    {
+        "id": 437,
+        "name": "granite-cave",
+        "region": "hoenn",
+        "areas": [
+            "granite-cave-1f",
+            "granite-cave-b1f",
+            "granite-cave-b2f",
+            "granite-cave-1fsmall-room"
+        ]
+    },
+    {
+        "id": 438,
+        "name": "petalburg-woods",
+        "region": "hoenn",
+        "areas": [
+            "petalburg-woods-area"
+        ]
+    },
+    {
+        "id": 439,
+        "name": "jagged-pass",
+        "region": "hoenn",
+        "areas": [
+            "jagged-pass-area"
+        ]
+    },
+    {
+        "id": 440,
+        "name": "fiery-path",
+        "region": "hoenn",
+        "areas": [
+            "fiery-path-area"
+        ]
+    },
+    {
+        "id": 441,
+        "name": "mt-pyre",
+        "region": "hoenn",
+        "areas": [
+            "mt-pyre-1f",
+            "mt-pyre-2f",
+            "mt-pyre-3f",
+            "mt-pyre-4f",
+            "mt-pyre-5f",
+            "mt-pyre-6f",
+            "mt-pyre-outside",
+            "mt-pyre-summit"
+        ]
+    },
+    {
+        "id": 442,
+        "name": "seafloor-cavern",
+        "region": "hoenn",
+        "areas": [
+            "seafloor-cavern-area"
+        ]
+    },
+    {
+        "id": 443,
+        "name": "cave-of-origin",
+        "region": "hoenn",
+        "areas": [
+            "cave-of-origin-entrance",
+            "cave-of-origin-1f",
+            "cave-of-origin-b1f",
+            "cave-of-origin-b2f",
+            "cave-of-origin-b3f",
+            "cave-of-origin-b4f"
+        ]
+    },
+    {
+        "id": 444,
+        "name": "hoenn-victory-road",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-victory-road-1f",
+            "hoenn-victory-road-b1f",
+            "hoenn-victory-road-b2f"
+        ]
+    },
+    {
+        "id": 445,
+        "name": "shoal-cave",
+        "region": "hoenn",
+        "areas": [
+            "shoal-cave-area",
+            "shoal-cave-b1f"
+        ]
+    },
+    {
+        "id": 446,
+        "name": "new-mauville",
+        "region": "hoenn",
+        "areas": [
+            "new-mauville-entrance",
+            "new-mauville-area"
+        ]
+    },
+    {
+        "id": 447,
+        "name": "abandoned-ship",
+        "region": "hoenn",
+        "areas": [
+            "abandoned-ship-area"
+        ]
+    },
+    {
+        "id": 448,
+        "name": "sky-pillar",
+        "region": "hoenn",
+        "areas": [
+            "sky-pillar-1f",
+            "sky-pillar-3f",
+            "sky-pillar-5f",
+            "sky-pillar-apex"
+        ]
+    },
+    {
+        "id": 449,
+        "name": "hoenn-route-101",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-route-101-area"
+        ]
+    },
+    {
+        "id": 450,
+        "name": "hoenn-route-102",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-route-102-area"
+        ]
+    },
+    {
+        "id": 451,
+        "name": "hoenn-route-103",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-route-103-area"
+        ]
+    },
+    {
+        "id": 452,
+        "name": "hoenn-route-104",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-route-104-area"
+        ]
+    },
+    {
+        "id": 453,
+        "name": "hoenn-route-105",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-route-105-area"
+        ]
+    },
+    {
+        "id": 454,
+        "name": "hoenn-route-106",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-route-106-area"
+        ]
+    },
+    {
+        "id": 455,
+        "name": "hoenn-route-107",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-route-107-area"
+        ]
+    },
+    {
+        "id": 456,
+        "name": "hoenn-route-108",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-route-108-area"
+        ]
+    },
+    {
+        "id": 457,
+        "name": "hoenn-route-109",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-route-109-area"
+        ]
+    },
+    {
+        "id": 458,
+        "name": "hoenn-route-110",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-route-110-area"
+        ]
+    },
+    {
+        "id": 459,
+        "name": "hoenn-route-111",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-route-111-area"
+        ]
+    },
+    {
+        "id": 460,
+        "name": "hoenn-route-112",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-route-112-area"
+        ]
+    },
+    {
+        "id": 461,
+        "name": "hoenn-route-113",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-route-113-area"
+        ]
+    },
+    {
+        "id": 462,
+        "name": "hoenn-route-114",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-route-114-area"
+        ]
+    },
+    {
+        "id": 463,
+        "name": "hoenn-route-115",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-route-115-area"
+        ]
+    },
+    {
+        "id": 464,
+        "name": "hoenn-route-116",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-route-116-area"
+        ]
+    },
+    {
+        "id": 465,
+        "name": "hoenn-route-117",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-route-117-area"
+        ]
+    },
+    {
+        "id": 466,
+        "name": "hoenn-route-118",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-route-118-area"
+        ]
+    },
+    {
+        "id": 467,
+        "name": "hoenn-route-119",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-route-119-area",
+            "hoenn-route-119-weather-institute"
+        ]
+    },
+    {
+        "id": 468,
+        "name": "hoenn-route-120",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-route-120-area"
+        ]
+    },
+    {
+        "id": 469,
+        "name": "hoenn-route-121",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-route-121-area"
+        ]
+    },
+    {
+        "id": 470,
+        "name": "hoenn-route-122",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-route-122-area"
+        ]
+    },
+    {
+        "id": 471,
+        "name": "hoenn-route-123",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-route-123-area"
+        ]
+    },
+    {
+        "id": 472,
+        "name": "hoenn-route-124",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-route-124-area",
+            "hoenn-route-124-underwater"
+        ]
+    },
+    {
+        "id": 473,
+        "name": "hoenn-route-125",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-route-125-area"
+        ]
+    },
+    {
+        "id": 474,
+        "name": "hoenn-route-126",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-route-126-area",
+            "hoenn-route-126-underwater"
+        ]
+    },
+    {
+        "id": 475,
+        "name": "hoenn-route-127",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-route-127-area"
+        ]
+    },
+    {
+        "id": 476,
+        "name": "hoenn-route-128",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-route-128-area"
+        ]
+    },
+    {
+        "id": 477,
+        "name": "hoenn-route-129",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-route-129-area"
+        ]
+    },
+    {
+        "id": 478,
+        "name": "hoenn-route-130",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-route-130-area"
+        ]
+    },
+    {
+        "id": 479,
+        "name": "hoenn-route-131",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-route-131-area"
+        ]
+    },
+    {
+        "id": 480,
+        "name": "hoenn-route-132",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-route-132-area"
+        ]
+    },
+    {
+        "id": 481,
+        "name": "hoenn-route-133",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-route-133-area"
+        ]
+    },
+    {
+        "id": 482,
+        "name": "hoenn-route-134",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-route-134-area"
+        ]
+    },
+    {
+        "id": 483,
+        "name": "hoenn-safari-zone",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-safari-zone-nwmach-bike-area",
+            "hoenn-safari-zone-neacro-bike-area",
+            "hoenn-safari-zone-sw",
+            "hoenn-safari-zone-se",
+            "hoenn-safari-zone-expansion-south",
+            "hoenn-safari-zone-expansion-north"
+        ]
+    },
+    {
+        "id": 484,
+        "name": "dewford-town",
+        "region": "hoenn",
+        "areas": [
+            "dewford-town-area"
+        ]
+    },
+    {
+        "id": 485,
+        "name": "pacifidlog-town",
+        "region": "hoenn",
+        "areas": [
+            "pacifidlog-town-area"
+        ]
+    },
+    {
+        "id": 486,
+        "name": "magma-hideout",
+        "region": "hoenn",
+        "areas": [
+            "magma-hideout-area"
+        ]
+    },
+    {
+        "id": 487,
+        "name": "mirage-tower",
+        "region": "hoenn",
+        "areas": [
+            "mirage-tower-area"
+        ]
+    },
+    {
+        "id": 488,
+        "name": "desert-underpass",
+        "region": "hoenn",
+        "areas": [
+            "desert-underpass-area"
+        ]
+    },
+    {
+        "id": 489,
+        "name": "artisan-cave",
+        "region": "hoenn",
+        "areas": [
+            "artisan-cave-area"
+        ]
+    },
+    {
+        "id": 490,
+        "name": "hoenn-altering-cave",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-altering-cave-a",
+            "hoenn-altering-cave-b",
+            "hoenn-altering-cave-c",
+            "hoenn-altering-cave-d",
+            "hoenn-altering-cave-e",
+            "hoenn-altering-cave-f",
+            "hoenn-altering-cave-g",
+            "hoenn-altering-cave-h",
+            "hoenn-altering-cave-i"
+        ]
+    },
+    {
+        "id": 491,
+        "name": "monean-chamber",
+        "region": "kanto",
+        "areas": [
+            "monean-chamber-area"
+        ]
+    },
+    {
+        "id": 492,
+        "name": "liptoo-chamber",
+        "region": "kanto",
+        "areas": [
+            "liptoo-chamber-area"
+        ]
+    },
+    {
+        "id": 493,
+        "name": "weepth-chamber",
+        "region": "kanto",
+        "areas": [
+            "weepth-chamber-area"
+        ]
+    },
+    {
+        "id": 494,
+        "name": "dilford-chamber",
+        "region": "kanto",
+        "areas": [
+            "dilford-chamber-area"
+        ]
+    },
+    {
+        "id": 495,
+        "name": "scufib-chamber",
+        "region": "kanto",
+        "areas": [
+            "scufib-chamber-area"
+        ]
+    },
+    {
+        "id": 496,
+        "name": "rixy-chamber",
+        "region": "kanto",
+        "areas": [
+            "rixy-chamber-area"
+        ]
+    },
+    {
+        "id": 497,
+        "name": "viapos-chamber",
+        "region": "kanto",
+        "areas": [
+            "viapos-chamber-area"
+        ]
+    },
+    {
+        "id": 498,
+        "name": "ss-anne",
+        "region": "kanto",
+        "areas": [
+            "ss-anne-area"
+        ]
+    },
+    {
+        "id": 500,
+        "name": "mt-ember",
+        "region": "kanto",
+        "areas": [
+            "mt-ember-area",
+            "mt-ember-cave",
+            "mt-ember-inside",
+            "mt-ember-1f-cave-behind-team-rocket",
+            "mt-ember-b1f",
+            "mt-ember-b2f",
+            "mt-ember-b3f",
+            "mt-ember-summit"
+        ]
+    },
+    {
+        "id": 501,
+        "name": "berry-forest",
+        "region": "kanto",
+        "areas": [
+            "berry-forest-area"
+        ]
+    },
+    {
+        "id": 502,
+        "name": "icefall-cave",
+        "region": "kanto",
+        "areas": [
+            "icefall-cave-entrance",
+            "icefall-cave-1f",
+            "icefall-cave-b1f",
+            "icefall-cave-waterfall"
+        ]
+    },
+    {
+        "id": 503,
+        "name": "pattern-bush",
+        "region": "kanto",
+        "areas": [
+            "pattern-bush-area"
+        ]
+    },
+    {
+        "id": 504,
+        "name": "lost-cave",
+        "region": "kanto",
+        "areas": [
+            "lost-cave-room-1",
+            "lost-cave-room-2",
+            "lost-cave-room-3",
+            "lost-cave-room-4",
+            "lost-cave-room-5",
+            "lost-cave-room-6",
+            "lost-cave-room-7",
+            "lost-cave-room-8",
+            "lost-cave-room-9",
+            "lost-cave-room-10",
+            "lost-cave-item-rooms"
+        ]
+    },
+    {
+        "id": 505,
+        "name": "kindle-road",
+        "region": "kanto",
+        "areas": [
+            "kindle-road-area"
+        ]
+    },
+    {
+        "id": 506,
+        "name": "treasure-beach",
+        "region": "kanto",
+        "areas": [
+            "treasure-beach-area"
+        ]
+    },
+    {
+        "id": 507,
+        "name": "cape-brink",
+        "region": "kanto",
+        "areas": [
+            "cape-brink-area"
+        ]
+    },
+    {
+        "id": 508,
+        "name": "bond-bridge",
+        "region": "kanto",
+        "areas": [
+            "bond-bridge-area"
+        ]
+    },
+    {
+        "id": 509,
+        "name": "three-isle-port",
+        "region": "kanto",
+        "areas": [
+            "three-isle-port-area"
+        ]
+    },
+    {
+        "id": 510,
+        "name": "resort-gorgeous",
+        "region": "kanto",
+        "areas": [
+            "resort-gorgeous-area"
+        ]
+    },
+    {
+        "id": 511,
+        "name": "water-labyrinth",
+        "region": "kanto",
+        "areas": [
+            "water-labyrinth-area"
+        ]
+    },
+    {
+        "id": 512,
+        "name": "five-isle-meadow",
+        "region": "kanto",
+        "areas": [
+            "five-isle-meadow-area"
+        ]
+    },
+    {
+        "id": 513,
+        "name": "memorial-pillar",
+        "region": "kanto",
+        "areas": [
+            "memorial-pillar-area"
+        ]
+    },
+    {
+        "id": 514,
+        "name": "outcast-island",
+        "region": "kanto",
+        "areas": [
+            "outcast-island-area"
+        ]
+    },
+    {
+        "id": 515,
+        "name": "green-path",
+        "region": "kanto",
+        "areas": [
+            "green-path-area"
+        ]
+    },
+    {
+        "id": 516,
+        "name": "water-path",
+        "region": "kanto",
+        "areas": [
+            "water-path-area"
+        ]
+    },
+    {
+        "id": 517,
+        "name": "ruin-valley",
+        "region": "kanto",
+        "areas": [
+            "ruin-valley-area"
+        ]
+    },
+    {
+        "id": 518,
+        "name": "trainer-tower",
+        "region": "kanto",
+        "areas": [
+            "trainer-tower-area"
+        ]
+    },
+    {
+        "id": 519,
+        "name": "canyon-entrance",
+        "region": "kanto",
+        "areas": [
+            "canyon-entrance-area"
+        ]
+    },
+    {
+        "id": 520,
+        "name": "sevault-canyon",
+        "region": "kanto",
+        "areas": [
+            "sevault-canyon-area"
+        ]
+    },
+    {
+        "id": 521,
+        "name": "tanoby-ruins",
+        "region": "kanto",
+        "areas": [
+            "tanoby-ruins-area"
+        ]
+    },
+    {
+        "id": 526,
+        "name": "one-island",
+        "region": "kanto",
+        "areas": [
+            "one-island-area"
+        ]
+    },
+    {
+        "id": 527,
+        "name": "four-island",
+        "region": "kanto",
+        "areas": [
+            "four-island-area"
+        ]
+    },
+    {
+        "id": 528,
+        "name": "five-island",
+        "region": "kanto",
+        "areas": [
+            "five-island-area"
+        ]
+    },
+    {
+        "id": 529,
+        "name": "kanto-altering-cave",
+        "region": "kanto",
+        "areas": [
+            "kanto-altering-cave-a",
+            "kanto-altering-cave-b",
+            "kanto-altering-cave-c",
+            "kanto-altering-cave-d",
+            "kanto-altering-cave-e",
+            "kanto-altering-cave-f",
+            "kanto-altering-cave-g",
+            "kanto-altering-cave-h",
+            "kanto-altering-cave-i"
+        ]
+    },
+    {
+        "id": 531,
+        "name": "aspertia-city",
+        "region": "unova",
+        "areas": [
+            "aspertia-city-area"
+        ]
+    },
+    {
+        "id": 532,
+        "name": "virbank-city",
+        "region": "unova",
+        "areas": [
+            "virbank-city-area"
+        ]
+    },
+    {
+        "id": 533,
+        "name": "humilau-city",
+        "region": "unova",
+        "areas": [
+            "humilau-city-area"
+        ]
+    },
+    {
+        "id": 534,
+        "name": "pokestar-studios",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 535,
+        "name": "join-avenue",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 536,
+        "name": "floccesy-town",
+        "region": "unova",
+        "areas": [
+            "floccesy-town-area"
+        ]
+    },
+    {
+        "id": 537,
+        "name": "lentimas-town",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 538,
+        "name": "unova-route-19",
+        "region": "unova",
+        "areas": [
+            "unova-route-19-area"
+        ]
+    },
+    {
+        "id": 539,
+        "name": "unova-route-20",
+        "region": "unova",
+        "areas": [
+            "unova-route-20-area"
+        ]
+    },
+    {
+        "id": 540,
+        "name": "unova-route-21",
+        "region": "unova",
+        "areas": [
+            "unova-route-21-area"
+        ]
+    },
+    {
+        "id": 541,
+        "name": "unova-route-22",
+        "region": "unova",
+        "areas": [
+            "unova-route-22-area"
+        ]
+    },
+    {
+        "id": 542,
+        "name": "unova-route-23",
+        "region": "unova",
+        "areas": [
+            "unova-route-23-area"
+        ]
+    },
+    {
+        "id": 543,
+        "name": "castelia-sewers",
+        "region": "unova",
+        "areas": [
+            "castelia-sewers-area",
+            "castelia-sewers-unknown-area-38"
+        ]
+    },
+    {
+        "id": 544,
+        "name": "floccesy-ranch",
+        "region": "unova",
+        "areas": [
+            "floccesy-ranch-outer",
+            "floccesy-ranch-inner"
+        ]
+    },
+    {
+        "id": 545,
+        "name": "virbank-complex",
+        "region": "unova",
+        "areas": [
+            "virbank-complex-outer",
+            "virbank-complex-inner"
+        ]
+    },
+    {
+        "id": 546,
+        "name": "reversal-mountain",
+        "region": "unova",
+        "areas": [
+            "reversal-mountain-unknown-area-48",
+            "reversal-mountain-unknown-area-49",
+            "reversal-mountain-unknown-area-50",
+            "reversal-mountain-unknown-area-51",
+            "reversal-mountain-unknown-area-52",
+            "reversal-mountain-unknown-area-53",
+            "reversal-mountain-unknown-area-54",
+            "reversal-mountain-unknown-area-55",
+            "reversal-mountain-unknown-area-56",
+            "reversal-mountain-unknown-area-57",
+            "reversal-mountain-unknown-area-58",
+            "reversal-mountain-unknown-area-59",
+            "reversal-mountain-unknown-area-60"
+        ]
+    },
+    {
+        "id": 547,
+        "name": "strange-house",
+        "region": "unova",
+        "areas": [
+            "strange-house-1f",
+            "strange-house-b1f"
+        ]
+    },
+    {
+        "id": 548,
+        "name": "unova-victory-road-2",
+        "region": "unova",
+        "areas": [
+            "unova-victory-road-2-unknown-area-71",
+            "unova-victory-road-2-unknown-area-72",
+            "unova-victory-road-2-unknown-area-73",
+            "unova-victory-road-2-unknown-area-74",
+            "unova-victory-road-2-unknown-area-75",
+            "unova-victory-road-2-unknown-area-76",
+            "unova-victory-road-2-unknown-area-77",
+            "unova-victory-road-2-unknown-area-78",
+            "unova-victory-road-2-unknown-area-79",
+            "unova-victory-road-2-unknown-area-80"
+        ]
+    },
+    {
+        "id": 549,
+        "name": "plasma-frigate",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 550,
+        "name": "relic-passage",
+        "region": "unova",
+        "areas": [
+            "relic-passage-castelia-sewers-entrance",
+            "relic-passage-relic-castle-entrance",
+            "relic-passage-pwt-entrance"
+        ]
+    },
+    {
+        "id": 551,
+        "name": "clay-tunnel",
+        "region": "unova",
+        "areas": [
+            "clay-tunnel-area"
+        ]
+    },
+    {
+        "id": 552,
+        "name": "white-treehollow",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 553,
+        "name": "black-tower",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 554,
+        "name": "seaside-cave",
+        "region": "unova",
+        "areas": [
+            "seaside-cave-1f",
+            "seaside-cave-b1f"
+        ]
+    },
+    {
+        "id": 555,
+        "name": "cave-of-being",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 556,
+        "name": "hidden-grotto",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 557,
+        "name": "marine-tube",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 558,
+        "name": "virbank-gate",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 559,
+        "name": "aspertia-gate",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 560,
+        "name": "nature-sanctuary",
+        "region": "unova",
+        "areas": [
+            "nature-sanctuary-area"
+        ]
+    },
+    {
+        "id": 561,
+        "name": "medal-secretariat",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 562,
+        "name": "underground-ruins",
+        "region": "unova",
+        "areas": [
+            "underground-ruins-area"
+        ]
+    },
+    {
+        "id": 563,
+        "name": "rocky-mountain-room",
+        "region": "unova",
+        "areas": [
+            "rocky-mountain-room-area"
+        ]
+    },
+    {
+        "id": 564,
+        "name": "glacier-room",
+        "region": "unova",
+        "areas": [
+            "glacier-room-area"
+        ]
+    },
+    {
+        "id": 565,
+        "name": "iron-room",
+        "region": "unova",
+        "areas": [
+            "iron-room-area"
+        ]
+    },
+    {
+        "id": 566,
+        "name": "pledge-grove",
+        "region": "unova",
+        "areas": []
+    },
+    {
+        "id": 567,
+        "name": "littleroot-town",
+        "region": "hoenn",
+        "areas": [
+            "littleroot-town-area"
+        ]
+    },
+    {
+        "id": 568,
+        "name": "oldale-town",
+        "region": "hoenn",
+        "areas": []
+    },
+    {
+        "id": 569,
+        "name": "lavaridge-town",
+        "region": "hoenn",
+        "areas": [
+            "lavaridge-town-area"
+        ]
+    },
+    {
+        "id": 570,
+        "name": "fallarbor-town",
+        "region": "hoenn",
+        "areas": [
+            "fallarbor-town-contest-hall"
+        ]
+    },
+    {
+        "id": 571,
+        "name": "verdanturf-town",
+        "region": "hoenn",
+        "areas": [
+            "verdanturf-town-contest-hall"
+        ]
+    },
+    {
+        "id": 572,
+        "name": "mauville-city",
+        "region": "hoenn",
+        "areas": []
+    },
+    {
+        "id": 573,
+        "name": "rustboro-city",
+        "region": "hoenn",
+        "areas": [
+            "rustboro-city-area"
+        ]
+    },
+    {
+        "id": 574,
+        "name": "fortree-city",
+        "region": "hoenn",
+        "areas": []
+    },
+    {
+        "id": 575,
+        "name": "underwater",
+        "region": "hoenn",
+        "areas": []
+    },
+    {
+        "id": 576,
+        "name": "mt-chimney",
+        "region": "hoenn",
+        "areas": []
+    },
+    {
+        "id": 577,
+        "name": "mirage-island",
+        "region": "hoenn",
+        "areas": []
+    },
+    {
+        "id": 578,
+        "name": "southern-island",
+        "region": "hoenn",
+        "areas": [
+            "southern-island-area"
+        ]
+    },
+    {
+        "id": 579,
+        "name": "sealed-chamber",
+        "region": "hoenn",
+        "areas": []
+    },
+    {
+        "id": 580,
+        "name": "scorched-slab",
+        "region": "hoenn",
+        "areas": []
+    },
+    {
+        "id": 581,
+        "name": "island-cave",
+        "region": "hoenn",
+        "areas": [
+            "island-cave-area"
+        ]
+    },
+    {
+        "id": 582,
+        "name": "desert-ruins",
+        "region": "hoenn",
+        "areas": [
+            "desert-ruins-area"
+        ]
+    },
+    {
+        "id": 583,
+        "name": "ancient-tomb",
+        "region": "hoenn",
+        "areas": [
+            "ancient-tomb-area"
+        ]
+    },
+    {
+        "id": 584,
+        "name": "inside-of-truck",
+        "region": "hoenn",
+        "areas": []
+    },
+    {
+        "id": 585,
+        "name": "secret-base",
+        "region": "hoenn",
+        "areas": []
+    },
+    {
+        "id": 586,
+        "name": "hoenn-battle-tower",
+        "region": "hoenn",
+        "areas": []
+    },
+    {
+        "id": 587,
+        "name": "vaniville-town",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 588,
+        "name": "kalos-route-1",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 589,
+        "name": "vaniville-pathway",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 590,
+        "name": "aquacorde-town",
+        "region": "kalos",
+        "areas": [
+            "aquacorde-town-area"
+        ]
+    },
+    {
+        "id": 591,
+        "name": "kalos-route-2",
+        "region": "kalos",
+        "areas": [
+            "kalos-route-2-area"
+        ]
+    },
+    {
+        "id": 592,
+        "name": "avance-trail",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 593,
+        "name": "santalune-forest",
+        "region": "kalos",
+        "areas": [
+            "santalune-forest-area"
+        ]
+    },
+    {
+        "id": 594,
+        "name": "kalos-route-3",
+        "region": "kalos",
+        "areas": [
+            "kalos-route-3-area"
+        ]
+    },
+    {
+        "id": 595,
+        "name": "ouvert-way",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 596,
+        "name": "santalune-city",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 597,
+        "name": "kalos-route-4",
+        "region": "kalos",
+        "areas": [
+            "kalos-route-4-area"
+        ]
+    },
+    {
+        "id": 598,
+        "name": "parterre-way",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 599,
+        "name": "lumiose-city",
+        "region": "kalos",
+        "areas": [
+            "lumiose-city-area"
+        ]
+    },
+    {
+        "id": 600,
+        "name": "prism-tower",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 601,
+        "name": "lysandre-labs",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 602,
+        "name": "kalos-route-5",
+        "region": "kalos",
+        "areas": [
+            "kalos-route-5-area"
+        ]
+    },
+    {
+        "id": 603,
+        "name": "versant-road",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 604,
+        "name": "camphrier-town",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 605,
+        "name": "shabboneau-castle",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 606,
+        "name": "kalos-route-6",
+        "region": "kalos",
+        "areas": [
+            "kalos-route-6-area"
+        ]
+    },
+    {
+        "id": 607,
+        "name": "palais-lane",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 608,
+        "name": "parfum-palace",
+        "region": "kalos",
+        "areas": [
+            "parfum-palace-area"
+        ]
+    },
+    {
+        "id": 609,
+        "name": "kalos-route-7",
+        "region": "kalos",
+        "areas": [
+            "kalos-route-7-area"
+        ]
+    },
+    {
+        "id": 610,
+        "name": "rivi\u00e8re-walk",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 611,
+        "name": "cyllage-city",
+        "region": "kalos",
+        "areas": [
+            "cyllage-city-area"
+        ]
+    },
+    {
+        "id": 612,
+        "name": "kalos-route-8",
+        "region": "kalos",
+        "areas": [
+            "kalos-route-8-area"
+        ]
+    },
+    {
+        "id": 613,
+        "name": "muraille-coast",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 614,
+        "name": "ambrette-town",
+        "region": "kalos",
+        "areas": [
+            "ambrette-town-area"
+        ]
+    },
+    {
+        "id": 615,
+        "name": "kalos-route-9",
+        "region": "kalos",
+        "areas": [
+            "kalos-route-9-area"
+        ]
+    },
+    {
+        "id": 616,
+        "name": "spikes-passage",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 617,
+        "name": "battle-chateau",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 618,
+        "name": "kalos-route-10",
+        "region": "kalos",
+        "areas": [
+            "kalos-route-10-area"
+        ]
+    },
+    {
+        "id": 619,
+        "name": "menhir-trail",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 620,
+        "name": "geosenge-town",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 621,
+        "name": "kalos-route-11",
+        "region": "kalos",
+        "areas": [
+            "kalos-route-11-area"
+        ]
+    },
+    {
+        "id": 622,
+        "name": "miroir-way",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 623,
+        "name": "reflection-cave",
+        "region": "kalos",
+        "areas": [
+            "reflection-cave-unknown-area-305",
+            "reflection-cave-unknown-area-306",
+            "reflection-cave-unknown-area-307",
+            "reflection-cave-unknown-area-308"
+        ]
+    },
+    {
+        "id": 624,
+        "name": "shalour-city",
+        "region": "kalos",
+        "areas": [
+            "shalour-city-area"
+        ]
+    },
+    {
+        "id": 625,
+        "name": "tower-of-mastery",
+        "region": "kalos",
+        "areas": [
+            "tower-of-mastery-area"
+        ]
+    },
+    {
+        "id": 626,
+        "name": "kalos-route-12",
+        "region": "kalos",
+        "areas": [
+            "kalos-route-12-area"
+        ]
+    },
+    {
+        "id": 627,
+        "name": "fourrage-road",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 628,
+        "name": "coumarine-city",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 629,
+        "name": "kalos-route-13",
+        "region": "kalos",
+        "areas": [
+            "kalos-route-13-area"
+        ]
+    },
+    {
+        "id": 630,
+        "name": "lumiose-badlands",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 631,
+        "name": "kalos-route-14",
+        "region": "kalos",
+        "areas": [
+            "kalos-route-14-area"
+        ]
+    },
+    {
+        "id": 632,
+        "name": "laverre-nature-trail",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 633,
+        "name": "laverre-city",
+        "region": "kalos",
+        "areas": [
+            "laverre-city-area"
+        ]
+    },
+    {
+        "id": 634,
+        "name": "poke-ball-factory",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 635,
+        "name": "kalos-route-15",
+        "region": "kalos",
+        "areas": [
+            "kalos-route-15-area"
+        ]
+    },
+    {
+        "id": 636,
+        "name": "brun-way",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 637,
+        "name": "dendemille-town",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 638,
+        "name": "kalos-route-16",
+        "region": "kalos",
+        "areas": [
+            "kalos-route-16-area"
+        ]
+    },
+    {
+        "id": 639,
+        "name": "melancolie-path",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 640,
+        "name": "frost-cavern",
+        "region": "kalos",
+        "areas": [
+            "frost-cavern-unknown-area-313",
+            "frost-cavern-unknown-area-314",
+            "frost-cavern-unknown-area-315",
+            "frost-cavern-unknown-area-316",
+            "frost-cavern-unknown-area-317"
+        ]
+    },
+    {
+        "id": 641,
+        "name": "kalos-route-17",
+        "region": "kalos",
+        "areas": [
+            "kalos-route-17-area"
+        ]
+    },
+    {
+        "id": 642,
+        "name": "mamoswine-road",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 643,
+        "name": "anistar-city",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 644,
+        "name": "kalos-route-18",
+        "region": "kalos",
+        "areas": [
+            "kalos-route-18-area"
+        ]
+    },
+    {
+        "id": 645,
+        "name": "vallee-etroite-way",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 646,
+        "name": "couriway-town",
+        "region": "kalos",
+        "areas": [
+            "couriway-town-area"
+        ]
+    },
+    {
+        "id": 647,
+        "name": "kalos-route-19",
+        "region": "kalos",
+        "areas": [
+            "kalos-route-19-area"
+        ]
+    },
+    {
+        "id": 648,
+        "name": "grande-vallee-way",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 649,
+        "name": "snowbelle-city",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 650,
+        "name": "kalos-route-20",
+        "region": "kalos",
+        "areas": [
+            "kalos-route-20-area"
+        ]
+    },
+    {
+        "id": 651,
+        "name": "winding-woods",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 652,
+        "name": "pokemon-village",
+        "region": "kalos",
+        "areas": [
+            "pokemon-village-area"
+        ]
+    },
+    {
+        "id": 653,
+        "name": "kalos-route-21",
+        "region": "kalos",
+        "areas": [
+            "kalos-route-21-area"
+        ]
+    },
+    {
+        "id": 654,
+        "name": "derni\u00e8re-way",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 655,
+        "name": "kalos-route-22",
+        "region": "kalos",
+        "areas": [
+            "kalos-route-22-area"
+        ]
+    },
+    {
+        "id": 656,
+        "name": "detourner-way",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 657,
+        "name": "kalos-victory-road",
+        "region": "kalos",
+        "areas": [
+            "kalos-victory-road-unknown-area-322",
+            "kalos-victory-road-unknown-area-324",
+            "kalos-victory-road-unknown-area-326",
+            "kalos-victory-road-unknown-area-327",
+            "kalos-victory-road-unknown-area-328"
+        ]
+    },
+    {
+        "id": 658,
+        "name": "kalos-pokemon-league",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 659,
+        "name": "kiloude-city",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 660,
+        "name": "battle-maison",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 661,
+        "name": "azure-bay",
+        "region": "kalos",
+        "areas": [
+            "azure-bay-area"
+        ]
+    },
+    {
+        "id": 662,
+        "name": "dendemille-gate",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 663,
+        "name": "couriway-gate",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 664,
+        "name": "ambrette-gate",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 665,
+        "name": "lumiose-gate",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 666,
+        "name": "shalour-gate",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 667,
+        "name": "coumarine-gate",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 668,
+        "name": "laverre-gate",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 669,
+        "name": "anistar-gate",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 670,
+        "name": "snowbelle-gate",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 671,
+        "name": "glittering-cave",
+        "region": "kalos",
+        "areas": [
+            "glittering-cave-unknown-area-303",
+            "glittering-cave-unknown-area-304"
+        ]
+    },
+    {
+        "id": 672,
+        "name": "connecting-cave",
+        "region": "kalos",
+        "areas": [
+            "connecting-cave-area"
+        ]
+    },
+    {
+        "id": 673,
+        "name": "zubat-roost",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 674,
+        "name": "kalos-power-plant",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 675,
+        "name": "team-flare-secret-hq",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 676,
+        "name": "terminus-cave",
+        "region": "kalos",
+        "areas": [
+            "terminus-cave-unknown-area-343",
+            "terminus-cave-unknown-area-344",
+            "terminus-cave-unknown-area-345",
+            "terminus-cave-unknown-area-347",
+            "terminus-cave-unknown-area-348"
+        ]
+    },
+    {
+        "id": 677,
+        "name": "lost-hotel",
+        "region": "kalos",
+        "areas": [
+            "lost-hotel-area"
+        ]
+    },
+    {
+        "id": 678,
+        "name": "chamber-of-emptiness",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 679,
+        "name": "sea-spirits-den",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 680,
+        "name": "friend-safari",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 681,
+        "name": "blazing-chamber",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 682,
+        "name": "flood-chamber",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 683,
+        "name": "ironworks-chamber",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 684,
+        "name": "dragonmark-chamber",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 685,
+        "name": "radiant-chamber",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 686,
+        "name": "pokemon-league-gate",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 687,
+        "name": "lumiose-station",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 688,
+        "name": "kiloude-station",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 689,
+        "name": "ambrette-aquarium",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 690,
+        "name": "unknown-dungeon",
+        "region": "kalos",
+        "areas": []
+    },
+    {
+        "id": 691,
+        "name": "hoenn-pokemon-league",
+        "region": "hoenn",
+        "areas": []
+    },
+    {
+        "id": 692,
+        "name": "team-aqua-hideout",
+        "region": "hoenn",
+        "areas": []
+    },
+    {
+        "id": 693,
+        "name": "sea-mauville",
+        "region": "hoenn",
+        "areas": []
+    },
+    {
+        "id": 694,
+        "name": "team-magma-hideout",
+        "region": "hoenn",
+        "areas": []
+    },
+    {
+        "id": 695,
+        "name": "battle-resort",
+        "region": "hoenn",
+        "areas": [
+            "battle-resort-area"
+        ]
+    },
+    {
+        "id": 696,
+        "name": "ss-tidal",
+        "region": "hoenn",
+        "areas": []
+    },
+    {
+        "id": 697,
+        "name": "mirage-forest",
+        "region": "hoenn",
+        "areas": []
+    },
+    {
+        "id": 698,
+        "name": "mirage-cave",
+        "region": "hoenn",
+        "areas": []
+    },
+    {
+        "id": 699,
+        "name": "mirage-mountain",
+        "region": "hoenn",
+        "areas": []
+    },
+    {
+        "id": 700,
+        "name": "trackless-forest",
+        "region": "hoenn",
+        "areas": []
+    },
+    {
+        "id": 701,
+        "name": "pathless-plain",
+        "region": "hoenn",
+        "areas": []
+    },
+    {
+        "id": 702,
+        "name": "nameless-cavern",
+        "region": "hoenn",
+        "areas": []
+    },
+    {
+        "id": 703,
+        "name": "fabled-cave",
+        "region": "hoenn",
+        "areas": []
+    },
+    {
+        "id": 704,
+        "name": "gnarled-den",
+        "region": "hoenn",
+        "areas": []
+    },
+    {
+        "id": 705,
+        "name": "crescent-isle",
+        "region": "hoenn",
+        "areas": []
+    },
+    {
+        "id": 706,
+        "name": "secret-islet",
+        "region": "hoenn",
+        "areas": []
+    },
+    {
+        "id": 707,
+        "name": "soaring-in-the-sky",
+        "region": "hoenn",
+        "areas": []
+    },
+    {
+        "id": 708,
+        "name": "secret-shore",
+        "region": "hoenn",
+        "areas": []
+    },
+    {
+        "id": 709,
+        "name": "secret-meadow",
+        "region": "hoenn",
+        "areas": []
+    },
+    {
+        "id": 710,
+        "name": "alola-route-1--hauoli-outskirts",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 711,
+        "name": "alola-route-1",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 712,
+        "name": "alola-route-3",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 713,
+        "name": "alola-route-2",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 714,
+        "name": "kalae-bay",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 715,
+        "name": "melemele-sea",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 716,
+        "name": "hauoli-city--beachfront",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 717,
+        "name": "hauoli-city--shopping-district",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 718,
+        "name": "hauoli-city--marina",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 719,
+        "name": "iki-town",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 720,
+        "name": "mahalo-trail",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 721,
+        "name": "mahalo-trail--plank-bridge",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 722,
+        "name": "ruins-of-conflict",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 723,
+        "name": "ten-carat-hill",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 724,
+        "name": "ten-carat-hill--farthest-hollow",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 725,
+        "name": "hauoli-cemetery",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 726,
+        "name": "melemele-meadow",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 727,
+        "name": "seaward-cave",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 728,
+        "name": "berry-fields",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 729,
+        "name": "verdant-cavern--trial-site",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 730,
+        "name": "verdant-cavern--totems-den",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 731,
+        "name": "alola-route-4",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 732,
+        "name": "alola-route-5",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 733,
+        "name": "alola-route-6",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 734,
+        "name": "alola-route-7",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 735,
+        "name": "alola-route-8",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 736,
+        "name": "alola-route-9",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 737,
+        "name": "hano-grand-resort",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 738,
+        "name": "hano-beach",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 739,
+        "name": "akala-meadow",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 740,
+        "name": "paniola-town",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 741,
+        "name": "heahea-city",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 742,
+        "name": "konikoni-city",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 743,
+        "name": "royal-avenue",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 744,
+        "name": "memorial-hill",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 745,
+        "name": "paniola-ranch",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 746,
+        "name": "wela-volcano-park",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 747,
+        "name": "wela-volcano-park--totems-den",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 748,
+        "name": "brooklet-hill",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 749,
+        "name": "brooklet-hill--totems-den",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 750,
+        "name": "lush-jungle",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 751,
+        "name": "ruins-of-life",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 752,
+        "name": "akala-outskirts",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 753,
+        "name": "digletts-tunnel",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 754,
+        "name": "battle-royal-dome",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 755,
+        "name": "alola-route-10",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 756,
+        "name": "alola-route-11",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 757,
+        "name": "secluded-shore",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 758,
+        "name": "alola-route-13",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 759,
+        "name": "tapu-village",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 760,
+        "name": "alola-route-15",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 761,
+        "name": "alola-route-16",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 762,
+        "name": "alola-route-17",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 763,
+        "name": "alola-route-12",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 764,
+        "name": "haina-desert",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 765,
+        "name": "alola-route-14",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 766,
+        "name": "ulaula-meadow",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 767,
+        "name": "po-town",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 768,
+        "name": "malie-city",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 769,
+        "name": "malie-garden",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 770,
+        "name": "mount-hokulani",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 771,
+        "name": "blush-mountain",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 772,
+        "name": "ruins-of-abundance",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 773,
+        "name": "lake-of-the-sunne",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 774,
+        "name": "lake-of-the-moone",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 775,
+        "name": "mount-lanakila",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 776,
+        "name": "shady-house",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 777,
+        "name": "thrifty-megamart--abandoned-site",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 778,
+        "name": "hokulani-observatory",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 779,
+        "name": "alola-pokemon-league",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 780,
+        "name": "poni-meadow",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 781,
+        "name": "poni-wilds",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 782,
+        "name": "ancient-poni-path",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 783,
+        "name": "poni-breaker-coast",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 784,
+        "name": "poni-grove",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 785,
+        "name": "poni-plains",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 786,
+        "name": "poni-coast",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 787,
+        "name": "poni-gauntlet",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 788,
+        "name": "seafolk-village",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 789,
+        "name": "vast-poni-canyon",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 790,
+        "name": "altar-of-the-sunne",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 791,
+        "name": "altar-of-the-moone",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 792,
+        "name": "ruins-of-hope",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 793,
+        "name": "resolution-cave",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 794,
+        "name": "exeggutor-island",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 795,
+        "name": "battle-tree",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 796,
+        "name": "aether-paradise",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 797,
+        "name": "ultra-space",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 798,
+        "name": "malie-city--outer-cape",
+        "region": "alola",
+        "areas": []
+    },
+    {
+        "id": 799,
+        "name": "roaming-kanto",
+        "region": "kanto",
+        "areas": [
+            "roaming-kanto-area"
+        ]
+    },
+    {
+        "id": 800,
+        "name": "roaming-johto",
+        "region": "johto",
+        "areas": [
+            "roaming-johto-area"
+        ]
+    },
+    {
+        "id": 801,
+        "name": "roaming-hoenn",
+        "region": "hoenn",
+        "areas": [
+            "roaming-hoenn-area"
+        ]
+    },
+    {
+        "id": 802,
+        "name": "roaming-sinnoh",
+        "region": "sinnoh",
+        "areas": [
+            "roaming-sinnoh-area"
+        ]
+    },
+    {
+        "id": 803,
+        "name": "terra-cave",
+        "region": "hoenn",
+        "areas": [
+            "terra-cave-area"
+        ]
+    },
+    {
+        "id": 804,
+        "name": "marine-cave",
+        "region": "hoenn",
+        "areas": [
+            "marine-cave-area"
+        ]
+    },
+    {
+        "id": 805,
+        "name": "two-island",
+        "region": "kanto",
+        "areas": []
+    },
+    {
+        "id": 806,
+        "name": "three-island",
+        "region": "kanto",
+        "areas": []
+    },
+    {
+        "id": 807,
+        "name": "three-isle-path",
+        "region": "kanto",
+        "areas": []
+    },
+    {
+        "id": 808,
+        "name": "six-island",
+        "region": "kanto",
+        "areas": []
+    },
+    {
+        "id": 809,
+        "name": "seven-island",
+        "region": "kanto",
+        "areas": []
+    },
+    {
+        "id": 810,
+        "name": "birth-island",
+        "region": "kanto",
+        "areas": [
+            "birth-island-area"
+        ]
+    },
+    {
+        "id": 811,
+        "name": "navel-rock",
+        "region": "kanto",
+        "areas": [
+            "navel-rock-area"
+        ]
+    },
+    {
+        "id": 812,
+        "name": "faraway-island",
+        "region": "hoenn",
+        "areas": [
+            "faraway-island-area"
+        ]
+    },
+    {
+        "id": 813,
+        "name": "hoenn-battle-frontier",
+        "region": "hoenn",
+        "areas": [
+            "hoenn-battle-frontier-area"
+        ]
+    },
+    {
+        "id": 814,
+        "name": "johto-safari-zone",
+        "region": "johto",
+        "areas": [
+            "johto-safari-zone-zone-peak",
+            "johto-safari-zone-zone-desert",
+            "johto-safari-zone-zone-plains",
+            "johto-safari-zone-zone-meadow",
+            "johto-safari-zone-zone-forest",
+            "johto-safari-zone-zone-swamp",
+            "johto-safari-zone-zone-marshland",
+            "johto-safari-zone-zone-mountain",
+            "johto-safari-zone-zone-rocky-beach",
+            "johto-safari-zone-zone-wasteland",
+            "johto-safari-zone-zone-savannah",
+            "johto-safari-zone-zone-wetland"
+        ]
+    },
+    {
+        "id": 815,
+        "name": "cabo-poco",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 816,
+        "name": "los-platos",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 817,
+        "name": "mesagoza",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 818,
+        "name": "cortondo",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 819,
+        "name": "alfornada",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 820,
+        "name": "pokemon-league",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 821,
+        "name": "artazon",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 822,
+        "name": "levincia",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 823,
+        "name": "zapapico",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 824,
+        "name": "cascarrafa",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 825,
+        "name": "porto-marinada",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 826,
+        "name": "medali",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 827,
+        "name": "montenevera",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 828,
+        "name": "paldea-south-province-area-one",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 829,
+        "name": "paldea-south-province-area-two",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 830,
+        "name": "paldea-south-province-area-three",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 831,
+        "name": "paldea-south-province-area-four",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 832,
+        "name": "paldea-south-province-area-five",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 833,
+        "name": "paldea-south-province-area-six",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 834,
+        "name": "south-paldean-sea",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 835,
+        "name": "poco-path",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 836,
+        "name": "inlet-grotto",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 837,
+        "name": "naranja-academy/uva-academy",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 838,
+        "name": "alfornada-cavern",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 839,
+        "name": "grasswither-shrine",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 840,
+        "name": "paldea-east-province-area-one",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 841,
+        "name": "paldea-east-province-area-two",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 842,
+        "name": "paldea-east-province-area-three",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 843,
+        "name": "east-paldean-sea",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 844,
+        "name": "tagtree-thicket",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 845,
+        "name": "schedar-squads-base",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 846,
+        "name": "navi-squads-base",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 847,
+        "name": "paldea-west-province-area-one",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 848,
+        "name": "paldea-west-province-area-two",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 849,
+        "name": "paldea-west-province-area-three",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 850,
+        "name": "asado-desert",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 851,
+        "name": "west-paldean-sea",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 852,
+        "name": "segin-squads-base",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 853,
+        "name": "icerend-shrine",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 854,
+        "name": "paldea-north-province-area-one",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 855,
+        "name": "paldea-north-province-area-two",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 856,
+        "name": "paldea-north-province-area-three",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 857,
+        "name": "casseroya-lake",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 858,
+        "name": "dalizapa-passage",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 859,
+        "name": "glaseado-mountain",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 860,
+        "name": "socarrat-trail",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 861,
+        "name": "groundblight-shrine",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 862,
+        "name": "firescourge-shrine",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 863,
+        "name": "north-paldean-sea",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 864,
+        "name": "ruchbah-squads-base",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 865,
+        "name": "caph-squads-base",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 866,
+        "name": "area-zero",
+        "region": "paldea",
+        "areas": []
+    },
+    {
+        "id": 867,
+        "name": "zero-lab",
+        "region": "paldea",
+        "areas": []
+    }
+]
