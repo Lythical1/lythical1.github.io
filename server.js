@@ -6,15 +6,36 @@ const port = 3000;
 const movesData = require('./public/api/all_moves_data.json');
 const naturesData = require('./public/api/natures.json');
 const pokemonData = require('./public/api/all_pokemon_data.json');
-
+const berryData = require('./public/api/all_berry_data.json');
+const allTypesData = require('./public/api/all_types_data.json');
 
 // Function to handle invalid ID
 function handleInvalidId(res, paramName) {
   return res.status(400).json({ error: `Invalid ${paramName} ID. Please provide a valid number.` });
 }
 
+// Endpoint to get data for all types or filter by a specific type
+app.post('/types/:type?', (req, res) => {
+    const requestedType = req.params.type;
+
+    // Check if a type is provided
+    if (requestedType) {
+      const typeLowerCase = requestedType.charAt(0).toUpperCase() + requestedType.slice(1).toLowerCase();
+      const typeData = allTypesData[typeLowerCase];
+  
+      if (!typeData) {
+        return res.status(404).json({ error: 'Type not found.' });
+      }
+  
+      return res.json({ [typeLowerCase]: typeData });
+    }
+  
+    // If no type is provided, return data for all types
+    res.json(allTypesData);
+  });
+  
 // Endpoint to get move data by ID or filter by type and damage class
-app.get('/moves/:id?', (req, res) => {
+app.post('/moves/:id?', (req, res) => {
     const moveId = req.params.id;
     const moveType = req.query.type;
     const moveDamageClass = req.query.damageClass;
@@ -55,14 +76,58 @@ app.get('/moves/:id?', (req, res) => {
     // Send the filtered move data
     res.json(filteredMoves);
   });
-  
 
+
+// Endpoint to get berry data by ID or filter by name
+app.post('/berries/:id?', (req, res) => {
+    const berryId = parseInt(req.params.id);
+    const berryName = req.query.name;
+
+    // Check if an ID is provided
+    if (berryId) {
+        const parsedBerryId = parseInt(berryId);
+
+        // Check if the berry ID is a valid number
+        if (isNaN(parsedBerryId)) {
+            return handleInvalidId(res, 'berry');
+        }
+
+        const berry = berryData.find(berry => berry.id === parsedBerryId);
+
+        // Check if the berry was found
+        if (!berry) {
+            return res.status(404).json({ error: 'Berry not found.' });
+        }
+
+        // Send the berry data with natural_gift_type
+        return res.json({ ...berry, natural_gift_type: berry.natural_gift_type });
+    }
+
+    // If no ID is provided, filter berries by name
+    if (berryName) {
+        const matchingBerries = berryData.filter(berry => {
+            return berry.name.toLowerCase().includes(berryName.toLowerCase());
+        });
+
+        if (matchingBerries.length === 0) {
+            return res.status(404).json({ error: 'Berry not found.' });
+        }
+
+        // Send the matching berries data with natural_gift_type
+        return res.json(matchingBerries.map(berry => ({ ...berry, natural_gift_type: berry.natural_gift_type })));
+    }
+
+    // If no filters are provided, return all berry data
+    // Include natural_gift_type in the response
+    res.json(berryData.map(berry => ({ ...berry, natural_gift_type: berry.natural_gift_type })));
+});
+  
 // Endpoint to get natures data
-app.get('/natures', (req, res) => {
+app.post('/natures', (req, res) => {
   res.json(naturesData);
 });
 
-app.get('/pokemon', (req, res) => {
+app.post('/pokemon', (req, res) => {
     const pokemonId = parseInt(req.query.id);
     const pokemonTypes = req.query.types;
     const pokemonName = req.query.name;
