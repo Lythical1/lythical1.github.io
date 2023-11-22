@@ -15,174 +15,174 @@ function handleInvalidId(res, paramName) {
 }
 
 // Endpoint to get data for all types or filter by a specific type
-app.post('/types/:type?', (req, res) => {
-    const requestedType = req.params.type;
+app.all('/types/:type?', (req, res) => {
+  const requestedType = req.params.type;
 
-    // Check if a type is provided
-    if (requestedType) {
-      const typeLowerCase = requestedType.charAt(0).toUpperCase() + requestedType.slice(1).toLowerCase();
-      const typeData = allTypesData[typeLowerCase];
-  
-      if (!typeData) {
-        return res.status(404).json({ error: 'Type not found.' });
-      }
-  
-      return res.json({ [typeLowerCase]: typeData });
+  // Check if a type is provided
+  if (requestedType) {
+    const typeLowerCase = requestedType.charAt(0).toUpperCase() + requestedType.slice(1).toLowerCase();
+    const typeData = allTypesData[typeLowerCase];
+
+    if (!typeData) {
+      return res.status(404).json({ error: 'Type not found.' });
     }
-  
-    // If no type is provided, return data for all types
-    res.json(allTypesData);
-  });
-  
+
+    return res.json({ [typeLowerCase]: typeData });
+  }
+
+  // If no type is provided, return data for all types
+  res.json(allTypesData);
+});
+
 // Endpoint to get move data by ID or filter by type and damage class
-app.post('/moves/:id?', (req, res) => {
-    const moveId = req.params.id;
-    const moveType = req.query.type;
-    const moveDamageClass = req.query.damageClass;
-  
-    // Check if an ID is provided
-    if (moveId) {
-      const parsedMoveId = parseInt(moveId);
-  
-      // Check if the move ID is a valid number
-      if (isNaN(parsedMoveId)) {
-        return handleInvalidId(res, 'move');
-      }
-  
-      const move = movesData.find(move => move.id === parsedMoveId);
-  
-      // Check if the move was found
-      if (!move) {
-        return res.status(404).json({ error: 'Move not found.' });
-      }
-  
-      // Send the move data
-      return res.json(move);
+app.all('/moves/:id?', (req, res) => {
+  const moveId = req.params.id;
+  const moveType = req.query.type;
+  const moveDamageClass = req.query.damageClass;
+
+  // Check if an ID is provided
+  if (moveId) {
+    const parsedMoveId = parseInt(moveId);
+
+    // Check if the move ID is a valid number
+    if (isNaN(parsedMoveId)) {
+      return handleInvalidId(res, 'move');
     }
-  
-    // If no ID is provided, filter moves by type and damage class
-    let filteredMoves = movesData;
-  
-    if (moveType) {
-      const typeLowerCase = moveType.toLowerCase();
-      filteredMoves = filteredMoves.filter(move => move.type.includes(typeLowerCase));
+
+    const move = movesData.find(move => move.id === parsedMoveId);
+
+    // Check if the move was found
+    if (!move) {
+      return res.status(404).json({ error: 'Move not found.' });
     }
-  
-    if (moveDamageClass) {
-      const damageClassLowerCase = moveDamageClass.toLowerCase();
-      filteredMoves = filteredMoves.filter(move => move.damage_class.includes(damageClassLowerCase));
-    }
-  
-    // Send the filtered move data
-    res.json(filteredMoves);
-  });
+
+    // Send the move data
+    return res.json(move);
+  }
+
+  // If no ID is provided, filter moves by type and damage class
+  let filteredMoves = movesData;
+
+  if (moveType) {
+    const typeLowerCase = moveType.toLowerCase();
+    filteredMoves = filteredMoves.filter(move => move.type.includes(typeLowerCase));
+  }
+
+  if (moveDamageClass) {
+    const damageClassLowerCase = moveDamageClass.toLowerCase();
+    filteredMoves = filteredMoves.filter(move => move.damage_class.includes(damageClassLowerCase));
+  }
+
+  // Send the filtered move data
+  res.json(filteredMoves);
+});
 
 
 // Endpoint to get berry data by ID or filter by name
-app.post('/berries/:id?', (req, res) => {
-    const berryId = parseInt(req.params.id);
-    const berryName = req.query.name;
+app.all('/berries/:id?', (req, res) => {
+  const berryId = parseInt(req.params.id);
+  const berryName = req.query.name;
 
-    // Check if an ID is provided
-    if (berryId) {
-        const parsedBerryId = parseInt(berryId);
+  // Check if an ID is provided
+  if (berryId) {
+    const parsedBerryId = parseInt(berryId);
 
-        // Check if the berry ID is a valid number
-        if (isNaN(parsedBerryId)) {
-            return handleInvalidId(res, 'berry');
-        }
-
-        const berry = berryData.find(berry => berry.id === parsedBerryId);
-
-        // Check if the berry was found
-        if (!berry) {
-            return res.status(404).json({ error: 'Berry not found.' });
-        }
-
-        // Send the berry data with natural_gift_type
-        return res.json({ ...berry, natural_gift_type: berry.natural_gift_type });
+    // Check if the berry ID is a valid number
+    if (isNaN(parsedBerryId)) {
+      return handleInvalidId(res, 'berry');
     }
 
-    // If no ID is provided, filter berries by name
-    if (berryName) {
-        const matchingBerries = berryData.filter(berry => {
-            return berry.name.toLowerCase().includes(berryName.toLowerCase());
-        });
+    const berry = berryData.find(berry => berry.id === parsedBerryId);
 
-        if (matchingBerries.length === 0) {
-            return res.status(404).json({ error: 'Berry not found.' });
-        }
-
-        // Send the matching berries data with natural_gift_type
-        return res.json(matchingBerries.map(berry => ({ ...berry, natural_gift_type: berry.natural_gift_type })));
+    // Check if the berry was found
+    if (!berry) {
+      return res.status(404).json({ error: 'Berry not found.' });
     }
 
-    // If no filters are provided, return all berry data
-    // Include natural_gift_type in the response
-    res.json(berryData.map(berry => ({ ...berry, natural_gift_type: berry.natural_gift_type })));
+    // Send the berry data with natural_gift_type
+    return res.json({ ...berry, natural_gift_type: berry.natural_gift_type });
+  }
+
+  // If no ID is provided, filter berries by name
+  if (berryName) {
+    const matchingBerries = berryData.filter(berry => {
+      return berry.name.toLowerCase().includes(berryName.toLowerCase());
+    });
+
+    if (matchingBerries.length === 0) {
+      return res.status(404).json({ error: 'Berry not found.' });
+    }
+
+    // Send the matching berries data with natural_gift_type
+    return res.json(matchingBerries.map(berry => ({ ...berry, natural_gift_type: berry.natural_gift_type })));
+  }
+
+  // If no filters are provided, return all berry data
+  // Include natural_gift_type in the response
+  res.json(berryData.map(berry => ({ ...berry, natural_gift_type: berry.natural_gift_type })));
 });
-  
+
 // Endpoint to get natures data
-app.post('/natures', (req, res) => {
+app.all('/natures', (req, res) => {
   res.json(naturesData);
 });
 
-app.post('/pokemon', (req, res) => {
-    const pokemonId = parseInt(req.query.id);
-    const pokemonTypes = req.query.types;
-    const pokemonName = req.query.name;
-  
-    // Check if more than one filter is provided
-    if ((pokemonId && pokemonTypes) || (pokemonId && pokemonName) || (pokemonTypes && pokemonName)) {
-      return res.status(400).json({ error: 'Please provide only one filter at a time: id, types, or name.' });
+app.all('/pokemon', (req, res) => {
+  const pokemonId = parseInt(req.query.id);
+  const pokemonTypes = req.query.types;
+  const pokemonName = req.query.name;
+
+  // Check if more than one filter is provided
+  if ((pokemonId && pokemonTypes) || (pokemonId && pokemonName) || (pokemonTypes && pokemonName)) {
+    return res.status(400).json({ error: 'Please provide only one filter at a time: id, types, or name.' });
+  }
+
+  // Handle filtering by ID
+  if (pokemonId) {
+    if (isNaN(pokemonId)) {
+      return handleInvalidId(res, 'pokemon');
     }
-  
-    // Handle filtering by ID
-    if (pokemonId) {
-      if (isNaN(pokemonId)) {
-        return handleInvalidId(res, 'pokemon');
-      }
-  
-      const pokemonById = pokemonData.find(pokemon => pokemon.id === pokemonId);
-  
-      if (!pokemonById) {
-        return res.status(404).json({ error: 'Pokemon not found.' });
-      }
-  
-      return res.json(pokemonById);
+
+    const pokemonById = pokemonData.find(pokemon => pokemon.id === pokemonId);
+
+    if (!pokemonById) {
+      return res.status(404).json({ error: 'Pokemon not found.' });
     }
-  
-    // Handle filtering by types
-    if (pokemonTypes) {
-      const typesArray = pokemonTypes.split(',');
-  
-      const matchingPokemon = pokemonData.filter(pokemon => {
-        return typesArray.every(type => pokemon.types.includes(type));
-      });
-  
-      if (matchingPokemon.length === 0) {
-        return res.status(404).json({ error: 'Pokemon not found.' });
-      }
-  
-      return res.json(matchingPokemon);
+
+    return res.json(pokemonById);
+  }
+
+  // Handle filtering by types
+  if (pokemonTypes) {
+    const typesArray = pokemonTypes.split(',');
+
+    const matchingPokemon = pokemonData.filter(pokemon => {
+      return typesArray.every(type => pokemon.types.includes(type));
+    });
+
+    if (matchingPokemon.length === 0) {
+      return res.status(404).json({ error: 'Pokemon not found.' });
     }
-  
-    // Handle filtering by name
-    if (pokemonName) {
-      const matchingPokemon = pokemonData.filter(pokemon => {
-        return pokemon.name.toLowerCase().includes(pokemonName.toLowerCase());
-      });
-  
-      if (matchingPokemon.length === 0) {
-        return res.status(404).json({ error: 'Pokemon not found.' });
-      }
-  
-      return res.json(matchingPokemon);
+
+    return res.json(matchingPokemon);
+  }
+
+  // Handle filtering by name
+  if (pokemonName) {
+    const matchingPokemon = pokemonData.filter(pokemon => {
+      return pokemon.name.toLowerCase().includes(pokemonName.toLowerCase());
+    });
+
+    if (matchingPokemon.length === 0) {
+      return res.status(404).json({ error: 'Pokemon not found.' });
     }
-  
-    // If no filters are provided, return all data
-    res.json(pokemonData);
-  });  
+
+    return res.json(matchingPokemon);
+  }
+
+  // If no filters are provided, return all data
+  res.json(pokemonData);
+});
 
 // Start the server
 app.listen(port, () => {
