@@ -18,5 +18,9 @@
     "url": "git@bitlab.bit-academy.nl:felixhuel/eeveelutions.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+
+  "publishConfig": {
+    "@lythical1:registry": "https://npm.pkg.github.com"
+  }
 }

@@ -3,8 +3,6 @@ const rateLimit = require('express-rate-limit');
 const app = express();
 const port = 3000;
 
-const connection = require('./connection.js');
-
 // Your JSON data
 const movesData = require('./public/api/all_moves_data.json');
 const naturesData = require('./public/api/natures.json');
@@ -66,47 +64,11 @@ app.all('/:apikey/types/:type?', checkApiKey, (req, res) => {
 });
 
 // Endpoint to get move data by ID or filter by type and damage class
-app.all('/moves/:id?', (req, res) => {
-    const moveId = req.params.id;
-    const moveType = req.query.type;
-    const moveDamageClass = req.query.damageClass;
-  
-    // Check if an ID is provided
-    if (moveId) {
-      const parsedMoveId = parseInt(moveId);
-  
-      // Check if the move ID is a valid number
-      if (isNaN(parsedMoveId)) {
-        return handleInvalidId(res, 'move');
-      }
-  
-      const move = movesData.find(move => move.id === parsedMoveId);
-  
-      // Check if the move was found
-      if (!move) {
-        return res.status(404).json({ error: 'Move not found.' });
-      }
-  
-      // Send the move data
-      return res.json(move);
-    }
-  
-    // If no ID is provided, filter moves by type and damage class
-    let filteredMoves = movesData;
-  
-    if (moveType) {
-      const typeLowerCase = moveType.toLowerCase();
-      filteredMoves = filteredMoves.filter(move => move.type.includes(typeLowerCase));
-    }
-  
-    if (moveDamageClass) {
-      const damageClassLowerCase = moveDamageClass.toLowerCase();
-      filteredMoves = filteredMoves.filter(move => move.damage_class.includes(damageClassLowerCase));
-    }
-  
-    // Send the filtered move data
-    res.json(filteredMoves);
-  });
+app.all('/:apikey/moves/:id?', checkApiKey, (req, res) => {
+  const moveId = req.params.id;
+  const moveType = req.query.type;
+  const moveDamageClass = req.query.damageClass;
+  const apiKey = req.params.apikey;
 
   // Check if an ID is provided
   if (moveId) {
