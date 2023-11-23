@@ -1,6 +1,9 @@
 const express = require('express');
+const rateLimit = require('express-rate-limit');
 const app = express();
 const port = 3000;
+
+const connection = require('./connection.js');
 
 // Your JSON data
 const movesData = require('./public/api/all_moves_data.json');
@@ -9,14 +12,42 @@ const pokemonData = require('./public/api/all_pokemon_data.json');
 const berryData = require('./public/api/all_berry_data.json');
 const allTypesData = require('./public/api/all_types_data.json');
 
+// Apply rate limiting middleware
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 100, // limit each IP to 100 requests per windowMs
+});
+
+app.use(limiter);
+
+// Define your API key
+const YOUR_API_KEY = '123456789';
+
+
+// Middleware to check for a valid API key
+const checkApiKey = (req, res, next) => {
+  const apiKey = req.params.apikey;
+
+  // Check if the API key is valid
+  if (apiKey !== YOUR_API_KEY) {
+    return res.status(401).json({ error: 'Unauthorized: Invalid API key.' });
+  }
+
+  // API key is valid, continue to the next middleware
+  next();
+};
+
+
 // Function to handle invalid ID
 function handleInvalidId(res, paramName) {
   return res.status(400).json({ error: `Invalid ${paramName} ID. Please provide a valid number.` });
 }
 
+
 // Endpoint to get data for all types or filter by a specific type
-app.all('/types/:type?', (req, res) => {
+app.all('/:apikey/types/:type?', checkApiKey, (req, res) => {
   const requestedType = req.params.type;
+  const apiKey = req.params.apikey;
 
   // Check if a type is provided
   if (requestedType) {
@@ -35,7 +66,8 @@ app.all('/types/:type?', (req, res) => {
 });
 
 // Endpoint to get move data by ID or filter by type and damage class
-app.all('/moves/:id?', (req, res) => {
+app.all('/:apikey/moves/:id?', (req, res) => {
+
   const moveId = req.params.id;
   const moveType = req.query.type;
   const moveDamageClass = req.query.damageClass;
@@ -77,11 +109,11 @@ app.all('/moves/:id?', (req, res) => {
   res.json(filteredMoves);
 });
 
-
 // Endpoint to get berry data by ID or filter by name
-app.all('/berries/:id?', (req, res) => {
+app.all('/:apikey/berries/:id?', checkApiKey, (req, res) => {
   const berryId = parseInt(req.params.id);
   const berryName = req.query.name;
+  const apiKey = req.params.apikey;
 
   // Check if an ID is provided
   if (berryId) {
@@ -123,14 +155,16 @@ app.all('/berries/:id?', (req, res) => {
 });
 
 // Endpoint to get natures data
-app.all('/natures', (req, res) => {
+app.all('/:apikey/natures', checkApiKey, (req, res) => {
+  const apiKey = req.params.apikey;
   res.json(naturesData);
 });
 
-app.all('/pokemon', (req, res) => {
+app.all('/:apikey/pokemon', checkApiKey, (req, res) => {
   const pokemonId = parseInt(req.query.id);
   const pokemonTypes = req.query.types;
   const pokemonName = req.query.name;
+  const apiKey = req.params.apikey;
 
   // Check if more than one filter is provided
   if ((pokemonId && pokemonTypes) || (pokemonId && pokemonName) || (pokemonTypes && pokemonName)) {
