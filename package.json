@@ -1,9 +1,10 @@
 {
   "dependencies": {
     "express": "^4.18.2",
-    "express-rate-limit": "^7.1.4"
+    "express-rate-limit": "^7.1.4",
+    "mysql": "^2.18.1"
   },
-  "name": "lythical1.github.io",
+  "name": "eeveelutions",
   "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
   "version": "1.0.0",
   "main": "server.js",
@@ -11,16 +12,13 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Lythical1/lythical1.github.io"
+    "url": "git@bitlab.bit-academy.nl:felixhuel/eeveelutions.git"
   },
   "author": "",
-  "license": "ISC",
-
-  "publishConfig": {
-    "@Lythical1:registry": "https://npm.pkg.github.com"
-  }
+  "license": "ISC"
 }

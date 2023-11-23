@@ -1,47 +1,218 @@
 import json
 
-def generate_moves_sql_script_from_file(json_file_path, table_name, sql_file_path):
-    # Read JSON data from file
-    with open(json_file_path, 'r') as file:
-        json_data = json.load(file)
+# JSON data
+data = '''
+{
+    "natures": [
+      {
+        "name": "Adamant",
+        "increased_stat": "Attack",
+        "decreased_stat": "Special Attack",
+        "favorite_flavor": "Spicy",
+        "disliked_flavor": "Dry"
+      },
+      {
+        "name": "Bashful",
+        "increased_stat": "None",
+        "decreased_stat": "None",
+        "favorite_flavor": "None",
+        "disliked_flavor": "None"
+      },
+      {
+        "name": "Bold",
+        "increased_stat": "Defense",
+        "decreased_stat": "Attack",
+        "favorite_flavor": "Sour",
+        "disliked_flavor": "Spicy"
+      },
+      {
+        "name": "Brave",
+        "increased_stat": "Attack",
+        "decreased_stat": "Speed",
+        "favorite_flavor": "Spicy",
+        "disliked_flavor": "Sweet"
+      },
+      {
+        "name": "Calm",
+        "increased_stat": "Special Defense",
+        "decreased_stat": "Attack",
+        "favorite_flavor": "Bitter",
+        "disliked_flavor": "Spicy"
+      },
+      {
+        "name": "Careful",
+        "increased_stat": "Special Defense",
+        "decreased_stat": "Special Attack",
+        "favorite_flavor": "Bitter",
+        "disliked_flavor": "Dry"
+      },
+      {
+        "name": "Docile",
+        "increased_stat": "None",
+        "decreased_stat": "None",
+        "favorite_flavor": "None",
+        "disliked_flavor": "None"
+      },
+      {
+        "name": "Gentle",
+        "increased_stat": "Special Defense",
+        "decreased_stat": "Defense",
+        "favorite_flavor": "Bitter",
+        "disliked_flavor": "Spicy"
+      },
+      {
+        "name": "Hardy",
+        "increased_stat": "None",
+        "decreased_stat": "None",
+        "favorite_flavor": "None",
+        "disliked_flavor": "None"
+      },
+      {
+        "name": "Hasty",
+        "increased_stat": "Speed",
+        "decreased_stat": "Defense",
+        "favorite_flavor": "Sweet",
+        "disliked_flavor": "Sour"
+      },
+      {
+        "name": "Impish",
+        "increased_stat": "Defense",
+        "decreased_stat": "Special Attack",
+        "favorite_flavor": "Sour",
+        "disliked_flavor": "Spicy"
+      },
+      {
+        "name": "Jolly",
+        "increased_stat": "Speed",
+        "decreased_stat": "Special Attack",
+        "favorite_flavor": "Sweet",
+        "disliked_flavor": "Spicy"
+      },
+      {
+        "name": "Lax",
+        "increased_stat": "Defense",
+        "decreased_stat": "Special Defense",
+        "favorite_flavor": "Sour",
+        "disliked_flavor": "Bitter"
+      },
+      {
+        "name": "Lonely",
+        "increased_stat": "Attack",
+        "decreased_stat": "Defense",
+        "favorite_flavor": "Spicy",
+        "disliked_flavor": "Sour"
+      },
+      {
+        "name": "Mild",
+        "increased_stat": "Special Attack",
+        "decreased_stat": "Defense",
+        "favorite_flavor": "Dry",
+        "disliked_flavor": "Sour"
+      },
+      {
+        "name": "Modest",
+        "increased_stat": "Special Attack",
+        "decreased_stat": "Attack",
+        "favorite_flavor": "Dry",
+        "disliked_flavor": "Spicy"
+      },
+      {
+        "name": "Naive",
+        "increased_stat": "Speed",
+        "decreased_stat": "Special Defense",
+        "favorite_flavor": "Sweet",
+        "disliked_flavor": "Bitter"
+      },
+      {
+        "name": "Naughty",
+        "increased_stat": "Attack",
+        "decreased_stat": "Special Defense",
+        "favorite_flavor": "Spicy",
+        "disliked_flavor": "Bitter"
+      },
+      {
+        "name": "Quiet",
+        "increased_stat": "Special Attack",
+        "decreased_stat": "Speed",
+        "favorite_flavor": "Dry",
+        "disliked_flavor": "Sweet"
+      },
+      {
+        "name": "Quirky",
+        "increased_stat": "None",
+        "decreased_stat": "None",
+        "favorite_flavor": "None",
+        "disliked_flavor": "None"
+      },
+      {
+        "name": "Rash",
+        "increased_stat": "Special Attack",
+        "decreased_stat": "Special Defense",
+        "favorite_flavor": "Dry",
+        "disliked_flavor": "Bitter"
+      },
+      {
+        "name": "Relaxed",
+        "increased_stat": "Defense",
+        "decreased_stat": "Speed",
+        "favorite_flavor": "Sour",
+        "disliked_flavor": "Sweet"
+      },
+      {
+        "name": "Sassy",
+        "increased_stat": "Special Defense",
+        "decreased_stat": "Speed",
+        "favorite_flavor": "Bitter",
+        "disliked_flavor": "Sweet"
+      },
+      {
+        "name": "Serious",
+        "increased_stat": "None",
+        "decreased_stat": "None",
+        "favorite_flavor": "None",
+        "disliked_flavor": "None"
+      },
+      {
+        "name": "Timid",
+        "increased_stat": "Speed",
+        "decreased_stat": "Attack",
+        "favorite_flavor": "Sweet",
+        "disliked_flavor": "Spicy"
+      }
+    ]
+}
+'''
 
-    # Create a .sql file
-    with open(sql_file_path, 'w') as sql_file:
-        # Drop and create database
-        sql_file.write("DROP DATABASE IF EXISTS pokedex;\n")
-        sql_file.write("CREATE DATABASE pokedex;\n")
-        sql_file.write("USE pokedex;\n\n")
+# Load JSON data
+natures_data = json.loads(data)["natures"]
 
-        # Create table
-        sql_file.write(f"CREATE TABLE {table_name} (\n")
-        sql_file.write("    id INT,\n")
-        sql_file.write("    name VARCHAR(255),\n")
-        sql_file.write("    type VARCHAR(255),\n")
-        sql_file.write("    power INT,\n")
-        sql_file.write("    accuracy INT,\n")
-        sql_file.write("    pp INT,\n")
-        sql_file.write("    priority INT,\n")
-        sql_file.write("    damage_class VARCHAR(255),\n")
-        sql_file.write("    effect_chance INT\n")  # Removed the comma here
-        sql_file.write(");\n\n")
+# SQL statements
+sql_statements = []
 
-        # Insert data for each move
-        for move in json_data:
-            sql_file.write(f"INSERT INTO {table_name} (id, name, type, power, accuracy, pp, priority, damage_class, effect_chance) VALUES (\n")
-            sql_file.write(f"    {move['id']},\n")
-            sql_file.write(f"    '{move['name']}',\n")
-            sql_file.write(f"    '{move['type']}',\n")
-            sql_file.write(f"    {move['power']},\n")
-            sql_file.write(f"    {move['accuracy']},\n")
-            sql_file.write(f"    {move['pp']},\n")
-            sql_file.write(f"    {move['priority']},\n")
-            sql_file.write(f"    '{move['damage_class']}',\n")
-            sql_file.write(f"    {move['effect_chance']}\n" if move['effect_chance'] is not None else "    NULL\n")
-            sql_file.write(");\n\n")
+# Create table statement
+create_table_statement = '''
+CREATE TABLE IF NOT EXISTS Nature (
+    Name VARCHAR(50) PRIMARY KEY,
+    IncreasedStat VARCHAR(20),
+    DecreasedStat VARCHAR(20),
+    FavoriteFlavor VARCHAR(20),
+    DislikedFlavor VARCHAR(20)
+);
+'''
+sql_statements.append(create_table_statement)
 
-# Example usage
-json_file_path = "public/api/all_moves_data.json"
-sql_file_path = "moves_output.sql"
-table_name = "moves"
+# Insert all data in one statement
+insert_statement = 'INSERT INTO Nature (Name, IncreasedStat, DecreasedStat, FavoriteFlavor, DislikedFlavor) VALUES\n'
+values = []
 
-generate_moves_sql_script_from_file(json_file_path, table_name, sql_file_path)
+for nature in natures_data:
+    values.append(
+        f"('{nature['name']}', '{nature['increased_stat']}', '{nature['decreased_stat']}', '{nature['favorite_flavor']}', '{nature['disliked_flavor']}')"
+    )
+
+insert_statement += ',\n'.join(values) + ';\n'
+sql_statements.append(insert_statement)
+
+# Print SQL statements
+for statement in sql_statements:
+    print(statement)

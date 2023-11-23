@@ -21,7 +21,6 @@ app.use(limiter);
 // Define your API key
 const YOUR_API_KEY = '123456789';
 
-
 // Middleware to check for a valid API key
 const checkApiKey = (req, res, next) => {
   const apiKey = req.params.apikey;
@@ -35,12 +34,10 @@ const checkApiKey = (req, res, next) => {
   next();
 };
 
-
 // Function to handle invalid ID
 function handleInvalidId(res, paramName) {
   return res.status(400).json({ error: `Invalid ${paramName} ID. Please provide a valid number.` });
 }
-
 
 // Endpoint to get data for all types or filter by a specific type
 app.all('/:apikey/types/:type?', checkApiKey, (req, res) => {
@@ -64,11 +61,10 @@ app.all('/:apikey/types/:type?', checkApiKey, (req, res) => {
 });
 
 // Endpoint to get move data by ID or filter by type and damage class
-app.all('/:apikey/moves/:id?', checkApiKey, (req, res) => {
+app.all('/moves/:id?', (req, res) => {
   const moveId = req.params.id;
   const moveType = req.query.type;
   const moveDamageClass = req.query.damageClass;
-  const apiKey = req.params.apikey;
 
   // Check if an ID is provided
   if (moveId) {
@@ -108,7 +104,7 @@ app.all('/:apikey/moves/:id?', checkApiKey, (req, res) => {
 });
 
 // Endpoint to get berry data by ID or filter by name
-app.all('/:apikey/berries/:id?', checkApiKey, (req, res) => {
+app.get('/:apikey/berries/:id?', checkApiKey, (req, res) => {
   const berryId = parseInt(req.params.id);
   const berryName = req.query.name;
   const apiKey = req.params.apikey;
@@ -153,12 +149,11 @@ app.all('/:apikey/berries/:id?', checkApiKey, (req, res) => {
 });
 
 // Endpoint to get natures data
-app.all('/:apikey/natures', checkApiKey, (req, res) => {
-  const apiKey = req.params.apikey;
+app.get('/:apikey/natures', checkApiKey, (req, res) => {
   res.json(naturesData);
 });
 
-app.all('/:apikey/pokemon', checkApiKey, (req, res) => {
+app.get('/:apikey/pokemon', checkApiKey, (req, res) => {
   const pokemonId = parseInt(req.query.id);
   const pokemonTypes = req.query.types;
   const pokemonName = req.query.name;

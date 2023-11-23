@@ -1,105 +1,105 @@
-# Cliëntvoorstel Samenvatting
+# Client Pitch Summary
 
-## Inleiding
-We presenteren een uitgebreid overzicht van vier belangrijke personages binnen de Pokémon-wereld, elk met unieke achtergronden, interesses, doelen en pijnpunten. Deze personages zijn onder andere Professor Oak, Brock, Misty en Evelyn. Professor Oak is een bekende Pokémon-onderzoeker, Brock is een ervaren Rock-type Pokémon Gym Leader, Misty is een Water-type Pokémon Gym Leader en Evelyn is een Pokémon-data-analist.
+## Introduction
+We present a comprehensive overview of four key characters within the Pokémon world, each with unique backgrounds, interests, goals, and pain points. These characters include Professor Oak, Brock, Misty, and Evelyn. Professor Oak is a renowned Pokémon researcher, Brock is a seasoned Rock-type Pokémon Gym Leader, Misty is a Water-type Pokémon Gym Leader, and Evelyn is a Pokémon data analyst.
 
-## Behoeften van Professor Oak
+## Professor Oak's Needs
 
-### Achtergrond
-- Gedreven Pokémon-onderzoeker en docent.
-- Interesse in evolutie, gedragsstudies en het helpen van trainers.
+### Background
+- Passionate Pokémon researcher and educator.
+- Interest in evolution, behavior studies, and aiding trainers.
 
-### Doelen en Motivaties
-- Vooruitgang boeken in Pokémon-onderzoek.
-- Trainers voorzien van de beste tools en informatie.
-- Jonge trainers en onderzoekers begeleiden en mentoren.
+### Goals & Motivations
+- Advance Pokémon research.
+- Provide trainers with the best tools and information.
+- Nurture and mentor young trainers and researchers.
 
-### Pijnpunten
-- Moeilijkheden bij het verkrijgen van uitgebreide Pokémon-gegevens.
-- Uitdagingen bij het visualiseren van complexe gegevens.
-- Behoefte aan efficiënte verspreiding van onderzoek.
+### Pain Points
+- Difficulty accessing comprehensive Pokémon data.
+- Challenges visualizing complex data.
+- Need for efficient research dissemination.
 
-### Gebruikersverhalen
-- Analyse van evolutieketens.
-- Studie van Pokémon-habitats.
-- Bijhouden van generaties en versies.
-- Database van Pokémon-kenmerken.
-- Documentatie van Pokémon-soorten.
+### User Stories
+- Evolution Chain Analysis.
+- Pokémon Habitat Study.
+- Generation and Version Tracking.
+- Pokémon Characteristics Database.
+- Pokémon Species Documentation.
 
 
-## Behoeften van Brock
+## Brock's Needs
 
-### Achtergrond
-- Gymleider van Rock-type Pokémon.
-- Expertise in gevechtsstrategieën, gezondheid en fokken.
+### Background
+- Rock-type Pokémon Gym Leader.
+- Expertise in battle strategies, health, and breeding.
 
-### Doelen en Motivaties
-- Vaardigheden als Gymleider verbeteren.
-- Trainers ondersteunen bij de ontwikkeling van Pokémon.
-- Bijdragen aan het begrip van fokken en gezondheidszorg.
+### Goals & Motivations
+- Improve skills as a Gym Leader.
+- Support trainers in Pokémon development.
+- Contribute to breeding and health care understanding.
 
-### Pijnpunten
-- Beperkte toegang tot diepgaande informatie over bewegingen.
-- Uitdagingen bij het volgen van gezondheids- en groeipatronen.
-- Behoefte aan uitgebreide fokbronnen.
+### Pain Points
+- Limited access to in-depth move information.
+- Challenges tracking health and growth patterns.
+- Need for comprehensive breeding resources.
 
-### Gebruikersverhalen
-- Planner voor bewegingsstrategieën.
-- Onderzoek naar Pokémon-bessen.
-- Onderzoekstool voor eiergroepen.
-- Analyse van groeisnelheid van Pokémon.
-- Verkenning van methoden voor het leren van bewegingen.
+### User Stories
+- Move Strategy Planner.
+- Pokémon Berry Research.
+- Egg Group Research Tool.
+- Pokémon Growth Rate Analysis.
+- Move Learning Methods Exploration.
 
-## Behoeften van Misty
+## Misty's Needs
 
-### Achtergrond
-- Gymleider van Water-type Pokémon en pleitbezorger voor milieu.
-- Expertise in gevechten met Water-types, habitatbehoud en educatie.
+### Background
+- Water-type Pokémon Gym Leader and environmental advocate.
+- Expertise in Water-type battles, habitat conservation, and education.
 
-### Doelen en Motivaties
-- Leidend worden in training en behoud van Water-types.
-- Trainers inspireren om zich bewust te zijn van milieueffecten.
-- Bijdragen aan onderzoek naar aquatische Pokémon-ecosystemen.
+### Goals & Motivations
+- Leading authority in Water-type training and conservation.
+- Inspire trainers to be mindful of environmental impacts.
+- Contribute to aquatic Pokémon ecosystem research.
 
-### Pijnpunten
-- Gebrek aan tools om aquatische Pokémon-habitats te bestuderen.
-- Moeilijkheden bij het verkrijgen van gedetailleerde informatie over Water-type Pokémon.
-- Behoefte aan educatieve middelen over habitatbehoud.
+### Pain Points
+- Lack of tools to study aquatic Pokémon habitats.
+- Difficulty accessing detailed Water-type Pokémon information.
+- Need for educational resources on habitat conservation.
 
-### Gebruikersverhalen
-- Studie van Pokémon-habitats.
-- Onderzoek naar regionale Pokémon.
-- Analyse van kleuren van Water-type Pokémon.
-- Onderzoek naar locatiegebieden.
-- Studie van verschillende vormen van Water-type Pokémon.
+### User Stories
+- Pokémon Habitat Study.
+- Regional Pokémon Studies.
+- Pokémon Color Analysis.
+- Location Area Research.
+- Pokémon Form Variations Study.
 
-## Behoeften van Evelyn
+## Evelyn's Needs
 
-### Achtergrond
-- Pokémon-data-analist en technologieliefhebber.
-- Gespecialiseerd in het benutten van data voor het verbeteren van Pokémon-training.
+### Background
+- Pokémon data analyst.
+- Specializes in data-driven Pokémon training.
 
-### Interesses
-- Ontwikkelen van geavanceerde analytische tools voor Pokémon-data.
-- Voorspellen van uitkomsten van Pokémon-gevechten op basis van datatrends.
-- Creëren van toegankelijke data-visualisaties voor trainers en onderzoekers.
+### Interests
+- Developing analytical tools.
+- Predicting battle outcomes.
+- Creating accessible data visualizations.
 
-### Doelen en Motivaties
-- Innoveren op het gebied van Pokémon-data-analyse en voorspellende modellering.
-- Complexe Pokémon-gegevens begrijpelijk en nuttig maken voor de bredere Pokémon-gemeenschap.
-- De kloof tussen traditionele Pokémon-training en moderne datawetenschap overbruggen.
+### Goals & Motivations
+- Innovate in Pokémon data analysis.
+- Make complex data understandable.
+- Bridge the gap between training and data science.
 
-### Pijnpunten
-- Uitdagingen bij het verkrijgen en integreren van diverse sets Pokémon-gegevens voor analyse.
-- Behoefte aan tools die complexe datapatronen effectief kunnen visualiseren en interpreteren.
-- Moeilijkheden bij het toegankelijk maken van voorspellende modellen voor niet-technische trainers.
+### Pain Points
+- Challenges in accessing diverse Pokémon data.
+- Need for effective data visualization tools.
+- Difficulty making predictive models accessible.
 
-### Gebruikersverhalen
-- Verkenning van ontmoetingsmethoden.
-- Vergelijking van Pokémon-typen.
-- Bijhouden van statistieken voor Pokéathlon.
-- Taal- en vertaaltool.
-- Gids voor voorbereiding op wedstrijden.
+### User Stories
+- Encounter Method Exploration.
+- Pokémon Type Comparison.
+- Pokéathlon Stat Tracking.
+- Language and Translation Tool.
+- Contest Preparation Guide.
 
-## Conclusie
-Ons voorstel is om een uitgebreid systeem te ontwikkelen dat voldoet aan de unieke behoeften van deze belangrijke personages, met tools en functies die hun vaardigheden, onderzoeksinspanningen en trainingsstrategieën verbeteren. Het voorgestelde systeem heeft als doel de Pokémon-wereld te revolutioneren door geavanceerde technologie te combineren met de rijke traditie van Pokémon-training en -onderzoek.
+## Conclusion
+Our proposal is to develop a comprehensive system that addresses the unique needs of these key characters, providing tools and features that enhance their abilities, research endeavors, and training strategies. The proposed system aims to revolutionize the Pokémon world by combining cutting-edge technology with the rich tradition of Pokémon training and research. This system will be a valuable resource for trainers, researchers, and Pokémon enthusiasts alike. We will be creating an API and database, this is supposed to work with the Pokédex which will be made by the front-end team.
